@@ -53,6 +53,12 @@ The Computer Science department is located in the Science Complex at Morgan Stat
 - Research Areas: Cybersecurity, Network Security
 - Office Hours: TTh 2:00-4:00 PM, or by appointment
 
+#### Dr. Vahid Heydari
+- Title: Faculty Member/Academic Advisor
+- Email: vahid.heydari@morgan.edu
+- Role: Academic Advisor for Computer Science students
+- Office Hours: By appointment
+
 #### Prof. Angela Johnson
 - Title: Lecturer
 - Office: Science Complex 335
@@ -71,109 +77,278 @@ The Computer Science department is located in the Science Complex at Morgan Stat
 
 ## Academic Programs
 
-### Bachelor of Science in Computer Science
+### Bachelor of Science in Computer Science - Official Requirements
 
-#### Core Requirements (72 credits)
-**Mathematics Foundation (18 credits):**
-- MATH 152: Calculus I (4 credits)
-- MATH 153: Calculus II (4 credits) 
-- MATH 251: Calculus III (3 credits)
-- MATH 254: Differential Equations (3 credits)
-- MATH 295: Discrete Mathematics (4 credits)
+#### School-wide Requirements
+To qualify for graduation, students must have satisfied:
+- Computer Science Major Requirements
+- General Education Requirements
+- Earned six (6) credits in the Complementary Studies Program required for all majors in the School of Computer, Mathematical and Natural Sciences
+- Passed the Senior Departmental Comprehensive Examination
+- Taken all of their junior and senior-level requirements in the major at Morgan State University (unless granted prior written permission by the Dean to take courses elsewhere)
+- Earned a cumulative average of 2.0 or better and a major average of 2.0 or better, with no outstanding grades below "C" in the major (which includes all courses required for the major and required supporting courses)
 
-**Programming Foundation (12 credits):**
-- COSC 111: Programming I (4 credits)
-- COSC 112: Programming II (4 credits)
-- COSC 211: Data Structures (4 credits)
+#### Credit Distribution
+A minimum of 120 credit hours are required to graduate with a B.S. in Computer Science. These credit hours are distributed as follows:
+- General Education and University Requirements: 44 credits
+- Supporting Courses: 11 credits
+- Required Courses for the Computer Science Major: 65 credits
+- **Total Credits: 120 credits**
 
-**Core Computer Science (42 credits):**
-- COSC 225: Computer Architecture (3 credits)
-- COSC 231: Algorithms (3 credits)
-- COSC 280: Software Engineering (3 credits)
-- COSC 310: Database Systems (3 credits)
-- COSC 315: Operating Systems (3 credits)
-- COSC 320: Computer Networks (3 credits)
-- COSC 330: Programming Languages (3 credits)
-- COSC 340: Artificial Intelligence (3 credits)
-- COSC 350: Computer Graphics (3 credits)
-- COSC 360: Cybersecurity Fundamentals (3 credits)
-- COSC 400: Senior Capstone I (3 credits)
-- COSC 401: Senior Capstone II (3 credits)
-- COSC Electives (6 credits)
+### General Education and University Requirements (44 credits)
 
-#### Course Prerequisites
-- COSC 111 (Programming I): MATH 109 or higher
-- COSC 112 (Programming II): COSC 111 with C or better
-- COSC 211 (Data Structures): COSC 112 with C or better, MATH 295
-- COSC 225 (Computer Architecture): COSC 112
-- COSC 231 (Algorithms): COSC 211, MATH 295
-- COSC 280 (Software Engineering): COSC 211
-- COSC 310 (Database Systems): COSC 211
-- COSC 315 (Operating Systems): COSC 225, COSC 231
-- All 300+ level courses: Junior standing (60+ credits)
-- COSC 400/401 (Capstone): Senior standing, completion of core courses
+#### Composition Requirements (6 credits)
+**English Composition I (3 credits EC):**
+- ENGL 101: Composition I (3 credits) OR ENGL 111: Composition I—Honors (3 credits)
 
-### Course Sequence by Year
+**English Composition II (3 credits EC):**
+- ENGL 102: Composition II (3 credits) OR ENGL 112: Composition II—Honors (3 credits)
 
-#### Freshman Year
+#### Mathematics and Science Requirements (11 credits)
+- MATH 241: Calculus I (4 credits MQ)*
+- COSC 111: Introduction to Computer Science I (4 credits IM)*
+- XXXX: BP General Education Requirement with lab (4 credits BP)
+- XXXX: BP General Education Requirement without lab (3 credits BP)
+
+#### Humanities and Social Sciences Requirements (12 credits)
+- XXXX: AH General Education Requirement (3 credits AH)
+- XXXX: AH General Education Requirement (3 credits AH)
+- XXXX: SB General Education Requirement (3 credits SB)
+- XXXX: SB General Education Requirement (3 credits SB)
+
+#### Additional General Education Requirements (15 credits)
+- XXXX: HH General Education Requirement (3 credits HH)
+- XXXX: CI General Education Requirement (3 credits CI)
+- XXXX: CT General Education Requirement (3 credits CT)
+- ORNS 106: Freshman Orientation for Majors in SCMNS (1 credit)
+- XXXX: Physical Activity or FIN 101 or MIND 101 (1 credit)
+
+*Note: * denotes a department required supporting/major course which may fulfill a general education requirement and must be completed with a grade of "C" or higher*
+
+### Supporting Courses (11 credits)
+- MATH 241: Calculus I (4 credits)*
+- MATH 242: Calculus II (4 credits)
+- MATH 312: Linear Algebra I (3 credits)
+- MATH 331: Applied Probability and Statistics (3 credits)
+- COSC 201: Computer Ethics (1 credit)
+
+*Note: Total supporting credits = 15 credits, but MATH 241 (4 credits) counts toward both supporting courses and general education, so net additional supporting credits = 11*
+
+### Required Courses for Computer Science Major (65 credits)
+All courses must be completed with grades of "C" or higher.
+
+#### Core Computer Science Courses (48 credits)
+- COSC 111: Introduction to Computer Science I (4 credits)*
+- COSC 112: Introduction to Computer Science II (4 credits)
+- COSC 220: Data Structures and Algorithms (4 credits)
+- COSC 241: Computer Systems and Digital Logic (3 credits)
+- COSC 281: Discrete Structure (3 credits)
+- COSC 349: Computer Networks (3 credits)
+- COSC 351: Cybersecurity (3 credits)
+- COSC 352: Organization of Programming Languages (3 credits)
+- COSC 354: Operating Systems (3 credits)
+- COSC 458: Software Engineering (3 credits)
+- COSC 459: Database Design (3 credits)
+- COSC 490: Senior Project (3 credits)
+
+*Note: COSC 111 (4 credits) counts toward both major requirements and general education*
+
+#### Computer Science Electives (21 credits)
+**Group A Electives (9 credits) - Choose three (3) courses:**
+- COSC 238: Object Oriented Programming (4 credits)
+- COSC 239: Java Programming (3 credits)
+- COSC 243: Computer Architecture (3 credits)
+- COSC 251: Introduction to Data Science (3 credits)
+- CLCO 261: Introduction to Cloud Computing (3 credits)
+
+**Group B Electives (6 credits) - Choose two (2) courses:**
+- COSC 320: Algorithm Design and Analysis (3 credits)
+- COSC 323: Introduction to Cryptography (3 credits)
+- COSC 332: Introduction to Game Design and Development (3 credits)
+- COSC 338: Mobile App Design & Development (3 credits)
+- COSC 383: Numerical Methods and Programming (3 credits)
+- COSC 385: Theory of Languages and Automata (3 credits)
+- COSC 386: Introduction to Quantum Computing (3 credits)
+- MATH 313: Linear Algebra II (3 credits)
+- EEGR 317: Electronic Circuits (4 credits)
+
+**Group C Electives (12 credits) - Choose four (4) courses:**
+- COSC 470: Artificial Intelligence (3 credits) OR COSC 472: Introduction to Machine Learning (3 credits)
+- COSC 460: Computer Graphics (3 credits)
+- COSC 480: Introduction to Image Processing and Analysis (3 credits)
+- COSC 486: Applied Quantum Computing (3 credits)
+- COSC 491: Conference Course (3 credits)
+- COSC 498: Senior Internship (3 credits)
+- COSC 499: Senior Research or Teaching/Tutorial Assistantship (3 credits)
+- CLCO 471: Data Analytics in Cloud (3 credits)
+
+**Group D Electives (3 credits) - Choose one (1) course:**
+- INSS 391: IT Infrastructure and Security (3 credits)
+- INSS 494: Information Security and Risk Management (3 credits)
+- EEGR 481: Introduction to Network Security (3 credits)
+- EEGR 483: Introduction to Security Management (3 credits)
+- XXXX: Any 300-400 level COSC Course not previously taken (3 credits)
+
+### Course Prerequisites and Scheduling
+
+#### Core Prerequisites
+- COSC 111 (Intro to Computer Science I): MATH 241 or equivalent
+- COSC 112 (Intro to Computer Science II): COSC 111 with C or better
+- COSC 220 (Data Structures & Algorithms): COSC 112 with C or better
+- COSC 241 (Computer Systems & Digital Logic): COSC 112
+- COSC 281 (Discrete Structures): COSC 112, MATH 241
+- COSC 349 (Computer Networks): COSC 220, Junior standing
+- COSC 351 (Cybersecurity): COSC 220, Junior standing
+- COSC 352 (Organization of Programming Languages): COSC 220, Junior standing
+- COSC 354 (Operating Systems): COSC 220, COSC 241, Junior standing
+- COSC 458 (Software Engineering): COSC 220, Junior standing
+- COSC 459 (Database Design): COSC 220, Junior standing
+- All Group C and D electives: Senior standing
+- COSC 490 (Senior Project): Senior standing, completion of core courses
+
+### Official Suggested Curriculum Sequence
+
+This curriculum guide is a planning tool. Matriculated students and advisors should consult Degree Works before and after registration each semester to track academic progress.
+
+#### First Year (Semester One): 15 Credits
+- COSC 111: Introduction to Computer Science I (4 credits IM)*
+- ENGL 101: Composition I (3 credits EC)
+- MATH 241: Calculus I (4 credits MQ)*
+- XXXX: CT General Education Requirement (3 credits CT)
+- ORNS 106: Freshman Orientation for Majors in SCMNS (1 credit)
+
+#### First Year (Semester Two): 15 Credits
+- ENGL 102: Composition II (3 credits EC)
+- XXXX: HH General Education Requirement (3 credits HH)
+- XXXX: Physical Activity or FIN 101 (1 credit)
+- COSC 112: Introduction to Computer Science II (4 credits)
+- MATH 242: Calculus II (4 credits)
+
+#### Second Year (Semester One): 16 Credits
+- COSC 220: Data Structures and Algorithms (4 credits)
+- COSC 241: Computer Systems and Digital Logic (3 credits)
+- XXXX: AH General Education Requirement (3 credits AH)
+- XXXX: COSC Group A Elective (3 credits)¹
+- COSC 201: Computer Ethics (1 credit)
+
+#### Second Year (Semester Two): 16 Credits
+- COSC 281: Discrete Structure (3 credits)
+- XXXX: COSC Group A Elective (3 credits)¹
+- XXXX: COSC Group A Elective (3 credits)¹
+- MATH 312: Linear Algebra I (3 credits)
+- XXXX: AH General Education Requirement (3 credits AH)
+
+#### Third Year (Semester One): 15 Credits
+- COSC 349: Computer Networks (3 credits)
+- COSC 351: Cybersecurity (3 credits)
+- COSC 352: Organization of Programming Languages (3 credits)
+- XXXX: COSC Group B Elective (3 credits)²
+- XXXX: BP General Education Requirement with lab (4 credits BP)
+
+#### Third Year (Semester Two): 16 Credits
+- COSC 354: Operating Systems (3 credits)
+- MATH 331: Applied Probability and Statistics (3 credits)
+- XXXX: COSC Group B Elective (3 credits)²
+- XXXX: CI General Education Requirement (3 credits CI)
+- XXXX: BP General Education Requirement without lab (3 credits BP)
+
+#### Fourth Year (Semester One): 15 Credits
+- COSC 458: Software Engineering (3 credits)
+- COSC 459: Database Design (3 credits)
+- COSC 490: Senior Project (3 credits)
+- XXXX: COSC Group C Elective (3 credits)³
+- XXXX: SB General Education Requirement (3 credits SB)
+
+#### Fourth Year (Semester Two): 12 Credits
+- XXXX: COSC Group C Elective (3 credits)³
+- XXXX: COSC Group C Elective (3 credits)³
+- XXXX: COSC Group C Elective (3 credits)³
+- XXXX: COSC Group D Elective (3 credits)⁴
+- XXXX: SB General Education Requirement (3 credits SB)
+
+**Total Credits: 120**
+
+*Note: * denotes a department required supporting or major course which may fulfill a general education requirement and must be completed with a grade of "C" or higher*
+
+### Elective Group Details
+
+**¹ Group A Electives (Choose 3 courses):**
+- COSC 238: Object Oriented Programming (4 credits)
+- COSC 239: Java Programming (3 credits)
+- COSC 243: Computer Architecture (3 credits)
+- COSC 251: Introduction to Data Science (3 credits)
+- CLCO 261: Introduction to Cloud Computing (3 credits)
+
+**² Group B Electives (Choose 2 courses):**
+- COSC 320: Algorithm Design and Analysis (3 credits)
+- COSC 323: Introduction to Cryptography (3 credits)
+- COSC 332: Introduction to Game Design and Development (3 credits)
+- COSC 338: Mobile App Design & Development (3 credits)
+- COSC 383: Numerical Methods and Programming (3 credits)
+- COSC 385: Theory of Languages and Automata (3 credits)
+- COSC 386: Introduction to Quantum Computing (3 credits)
+- MATH 313: Linear Algebra II (3 credits)
+- EEGR 317: Electronic Circuits (4 credits)
+
+**³ Group C Electives (Choose 4 courses):**
+- COSC 470: Artificial Intelligence (3 credits)
+- COSC 472: Introduction to Machine Learning (3 credits)
+- COSC 460: Computer Graphics (3 credits)
+- COSC 480: Introduction to Image Processing and Analysis (3 credits)
+- COSC 486: Applied Quantum Computing (3 credits)
+- COSC 491: Conference Course (3 credits)
+- COSC 498: Senior Internship (3 credits)
+- COSC 499: Senior Research or Teaching/Tutorial Assistantship (3 credits)
+- CLCO 471: Data Analytics in Cloud (3 credits)
+
+**⁴ Group D Electives (Choose 1 course):**
+- MGBU 326: [Business course] (3 credits)
+- INSS 391: IT Infrastructure and Security (3 credits)
+- INSS 494: Information Security and Risk Management (3 credits)
+- EEGR 481: Introduction to Network Security (3 credits)
+- EEGR 483: Introduction to Security Management (3 credits)
+- XXXX: Any 300-400 level COSC course not previously taken (3 credits)
+
+### Realistic Course Progression (Based on Actual Student Data)
+
+*Note: The official sequence above assumes students are ready for Calculus I in their first semester. Many students may need to take prerequisite math courses first.*
+
+#### Freshman Year - Alternative Path (for students needing math preparation)
 **Fall Semester:**
-- COSC 111: Programming I (4)
-- MATH 152: Calculus I (4)
-- ENGL 101: Composition I (3)
-- General Education (6)
-Total: 17 credits
-
-**Spring Semester:**
-- COSC 112: Programming II (4)
-- MATH 153: Calculus II (4)
-- MATH 295: Discrete Mathematics (4)
-- ENGL 102: Composition II (3)
-- General Education (3)
-Total: 18 credits
-
-#### Sophomore Year
-**Fall Semester:**
-- COSC 211: Data Structures (4)
-- COSC 225: Computer Architecture (3)
-- MATH 251: Calculus III (3)
-- General Education (6)
-Total: 16 credits
-
-**Spring Semester:**
-- COSC 231: Algorithms (3)
-- COSC 280: Software Engineering (3)
-- MATH 254: Differential Equations (3)
-- General Education (6)
+- COSC 111: Intro to Computer Science I (4)
+- ENGL 101: Freshman Composition I (3)
+- MATH 113: Intro to Math Analysis I (4) - prerequisite for Calculus
+- ORNS 106: Freshman Orientation (1)
+- General Education course (3)
 Total: 15 credits
 
-#### Junior Year
+**Spring Semester:**
+- COSC 112: Intro to Computer Science II (4)
+- MATH 241: Calculus I (4) - after completing MATH 113
+- MHTC 103: Intro to Group Dynamics (3) - SB requirement
+- General Education course (3)
+Total: 14 credits
+
+#### Sophomore Year - Alternative Path
 **Fall Semester:**
-- COSC 310: Database Systems (3)
-- COSC 315: Operating Systems (3)
-- COSC 330: Programming Languages (3)
-- General Education (6)
-Total: 15 credits
+- COSC 220: Data Structures & Algorithms (4)
+- COSC 241: Computer Systems & Digital Logic (3)
+- ENGL 102: Freshman Composition II (3)
+- MATH 114: Intro to Math Analysis II (4) - complementary studies
+Total: 14 credits
 
 **Spring Semester:**
-- COSC 320: Computer Networks (3)
-- COSC 340: Artificial Intelligence (3)
-- COSC 350: Computer Graphics (3)
-- General Education (3)
-Total: 12 credits
+- COSC 281: Discrete Structures (3)
+- MATH 242: Calculus II (4)
+- General Education courses (6)
+Total: 13 credits
 
-#### Senior Year
-**Fall Semester:**
-- COSC 360: Cybersecurity Fundamentals (3)
-- COSC 400: Senior Capstone I (3)
-- COSC Elective (3)
-- General Education (3)
-Total: 12 credits
-
-**Spring Semester:**
-- COSC 401: Senior Capstone II (3)
-- COSC Elective (3)
-- General Education (6)
-Total: 12 credits
+#### Key Differences from Official Sequence:
+1. **Math Prerequisites**: Many students need MATH 113 before MATH 241 (Calculus I)
+2. **Flexible Scheduling**: Courses can be taken across different semesters based on availability
+3. **Summer Options**: Summer and winter mini-mesters can help with scheduling
+4. **Course Failures**: Students may need to retake courses, affecting the timeline
+5. **Credit Load Management**: Some students prefer lighter loads (12-15 credits) vs. heavier loads (18+ credits)
 
 ## Student Resources
 
@@ -188,7 +363,7 @@ Total: 12 credits
 **Peer Tutoring Program**
 - Advanced CS students provide one-on-one tutoring
 - Contact: Ms. Patricia Williams (patricia.williams@morgan.edu)
-- Subjects covered: COSC 111, 112, 211, and other core courses
+- Subjects covered: COSC 111, 112, 220, and other core courses
 
 ### Study Spaces
 **CS Student Lounge**
@@ -312,18 +487,23 @@ Total: 12 credits
 
 ### Academic Advisors
 
-#### Freshman and Sophomore Students
-- Primary Advisor: Prof. Angela Johnson
-- Email: angela.johnson@morgan.edu
-- Office: Science Complex 335
-- Office Hours: MW 3:00-5:00 PM, or by appointment
+#### Primary Academic Advisor
+- Dr. Vahid Heydari
+- Email: vahid.heydari@morgan.edu
+- Specializes in Computer Science student advising
+- Office Hours: By appointment
 
-#### Junior and Senior Students
-- Advisor assignment based on research interests
+#### Additional Faculty Advisors by Specialization
 - AI/ML track: Dr. Mohinder Grewal
 - Graphics/VR track: Dr. Enyue Lu
 - Bioinformatics track: Dr. Shaojie Zhang
 - Cybersecurity track: Dr. Craig Scott
+
+#### Freshman and Sophomore Support
+- Prof. Angela Johnson also provides advising support
+- Email: angela.johnson@morgan.edu
+- Office: Science Complex 335
+- Office Hours: MW 3:00-5:00 PM, or by appointment
 
 ### Advising Process
 
@@ -373,26 +553,10 @@ Total: 12 credits
 3. Submit to department office
 4. Wait for approval (48-72 hours)
 
-### Important Dates (Spring 2024)
-
-#### Registration
-- Registration begins: October 23, 2023
-- Registration ends: January 16, 2024
-- Late registration fee applies after January 16
-
-#### Add/Drop Period
-- Add deadline: January 23, 2024
-- Drop with refund deadline: January 30, 2024
-- Withdrawal deadline: March 25, 2024
-
-#### Final Exams
-- Final exam period: May 6-10, 2024
-- Commencement: May 18, 2024
-
 ### Academic Policies
 
 #### Grade Requirements
-- Minimum grade of C required in COSC 111, 112, 211
+- Minimum grade of C required in COSC 111, 112, 220
 - Overall GPA of 2.0 required for graduation
 - Major GPA of 2.0 required for graduation
 - No more than two grades below C in major courses
@@ -407,8 +571,8 @@ Total: 12 credits
 
 ### Bachelor of Science in Computer Science
 - Traditional track: General computer science education
-- 120 total credits
-- Accredited by ABET
+- 120 total credits minimum
+- ABET accredited program
 
 ### Bachelor of Science in Information Systems
 - Business-focused computing program  
@@ -430,7 +594,8 @@ Total: 12 credits
 
 ### Undergraduate Research Program
 - Work with faculty on research projects
-- COSC 495: Independent Study (1-3 credits)
+- COSC 499: Senior Research or Teaching/Tutorial Assistantship (3 credits)
+- COSC 491: Conference Course (3 credits)
 - Potential for conference publications
 - Preparation for graduate school
 
@@ -467,4 +632,33 @@ Total: 12 credits
 - Technical books and journals
 - Online learning platforms (LinkedIn Learning, Pluralsight)
 
-This knowledge base is regularly updated to reflect current department information, policies, and resources. For the most current information, always verify with department staff or the official Morgan State University website.
+## Special Notes for Students
+
+### Course Scheduling Considerations
+- Some courses are offered only in specific semesters
+- Winter mini-mesters offer opportunities for lighter credit loads
+- Summer sessions can help catch up or get ahead
+- Plan carefully for senior year requirements
+- Senior Comprehensive Exam (COSC 001) is required for graduation
+
+### Academic Success Tips
+- Maintain at least a 3.0 GPA for better internship opportunities
+- Complete failed courses if required for degree progression
+- Take advantage of research opportunities (COSC 499, COSC 491)
+- Build relationships with faculty for recommendations
+- Join student organizations for networking and skill development
+
+### Graduation Requirements Checklist
+- Complete all 120+ credits with proper grade requirements
+- Pass Senior Comprehensive Exam (COSC 001)
+- Complete Senior Project (COSC 490)
+- Maintain good academic standing (2.0+ GPA overall and in major)
+- Complete 6 credits in Complementary Studies Program
+- Take all junior/senior level courses at Morgan State (unless granted permission)
+- Apply for graduation by required deadline
+
+### Emergency Academic Situations
+- Course failures: Consult with advisor immediately about retake options
+- Academic probation: Develop improvement plan with advisor
+- Course overloads: Obtain permission for more than 18 credits
+- Prerequisites issues: May need course overrides with justification
