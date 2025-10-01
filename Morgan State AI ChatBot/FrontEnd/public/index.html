@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Morgan AI - Your Computer Science Department Assistant for Morgan State University">
+    <meta name="keywords" content="Morgan State University, Computer Science, AI Chatbot, Academic Assistant">
+    <meta name="author" content="Morgan State University Computer Science Department">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Morgan AI - CS Department Assistant">
+    <meta property="og:description" content="AI-powered assistant for Morgan State University Computer Science students">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://morgan-ai.morgan.edu">
+    <meta property="og:image" content="/assets/morgan-logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Morgan AI - CS Department Assistant">
+    <meta name="twitter:description" content="AI-powered assistant for Morgan State University Computer Science students">
+    <meta name="twitter:image" content="/assets/morgan-logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#FF9100"><!-- Chrome, Edge, Android -->
+    <!-- Removed media attribute for Firefox/Opera compatibility -->
+    <meta name="msapplication-TileColor" content="#001B3A"><!-- Windows 8/10 -->
+    <meta name="msapplication-navbutton-color" content="#FF9100"><!-- Opera -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- Safari/iOS -->
+    
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Variables for Morgan State Branding -->
+    <style>
+        :root {
+            --morgan-orange: #FF9100;
+            --morgan-blue: #001B3A;
+            --morgan-white: #FFFFFF;
+            --morgan-gray: #F5F5F5;
+        }
+        
+        /* Loading Screen Styles */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--morgan-blue) 0%, #1E3A5F 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            color: var(--morgan-white);
+            font-family: 'Poppins', sans-serif;
+            transition: opacity 0.5s ease-out;
+        }
+        
+        .loading-logo {
+            width: 120px;
+            height: 120px;
+            background: var(--morgan-orange);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+            box-shadow: 0 8px 32px rgba(255, 145, 0, 0.3);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .loading-text {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, var(--morgan-orange), #FFB74D);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .loading-subtitle {
+            font-size: 16px;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 145, 0, 0.3);
+            border-top: 3px solid var(--morgan-orange);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .loading-tips {
+            position: absolute;
+            bottom: 40px;
+            text-align: center;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+        
+        .loading-tip {
+            font-size: 14px;
+            opacity: 0.7;
+            line-height: 1.5;
+        }
+        
+        /* Hide loading screen when app is ready */
+        .app-loaded #loading-screen {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        /* Error Screen Styles */
+        .error-screen {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--morgan-gray);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9998;
+            color: var(--morgan-blue);
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .error-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            color: #F44336;
+        }
+        
+        .error-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--morgan-blue);
+        }
+        
+        .error-message {
+            font-size: 16px;
+            margin-bottom: 30px;
+            opacity: 0.8;
+            max-width: 500px;
+        }
+        
+        .retry-button {
+            background: var(--morgan-orange);
+            color: var(--morgan-white);
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .retry-button:hover {
+            background: #E65100;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .loading-logo {
+                width: 80px;
+                height: 80px;
+                font-size: 32px;
+            }
+            
+            .loading-text {
+                font-size: 20px;
+            }
+            
+            .loading-subtitle {
+                font-size: 14px;
+            }
+        }
+    </style>
+    
+    <title>Morgan AI - Computer Science Department Assistant</title>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-logo">🎓</div>
+        <div class="loading-text">Morgan AI</div>
+        <div class="loading-subtitle">Computer Science Department Assistant</div>
+        <div class="loading-spinner"></div>
+        
+        <div class="loading-tips">
+            <div class="loading-tip">
+                Ask me about courses, faculty, student organizations, career resources, and more!
+            </div>
+        </div>
+    </div>
+    
+    <!-- Error Screen -->
+    <div id="error-screen" class="error-screen">
+        <div class="error-icon">⚠️</div>
+        <div class="error-title">Unable to Load Morgan AI</div>
+        <div class="error-message">
+            There was a problem loading the application. Please check your internet connection and try again.
+        </div>
+        <button class="retry-button" onclick="window.location.reload()">
+            Try Again
+        </button>
+    </div>
+    
+    <!-- React App Root -->
+    <div id="root"></div>
+    
+    <!-- Browser Compatibility Check -->
+    <script>
+        // Check for essential modern browser features
+        function checkBrowserCompatibility() {
+            const requiredFeatures = [
+                'fetch',
+                'Promise',
+                'Map',
+                'Set'
+            ];
+            
+            const missingFeatures = requiredFeatures.filter(feature => !(feature in window));
+            
+            if (missingFeatures.length > 0) {
+                showError(
+                    'Browser Not Supported',
+                    'Morgan AI requires a modern browser. Please update your browser or try Chrome, Firefox, Safari, or Edge.'
+                );
+                return false;
+            }
+            
+            return true;
+        }
+        
+        // Show error screen
+        function showError(title, message) {
+            const loadingScreen = document.getElementById('loading-screen');
+            const errorScreen = document.getElementById('error-screen');
+            
+            loadingScreen.style.display = 'none';
+            errorScreen.style.display = 'flex';
+            
+            if (title) {
+                errorScreen.querySelector('.error-title').textContent = title;
+            }
+            if (message) {
+                errorScreen.querySelector('.error-message').textContent = message;
+            }
+        }
+        
+        // Hide loading screen when app is ready
+        function hideLoadingScreen() {
+            document.body.classList.add('app-loaded');
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+            }, 500);
+        }
+        
+        // Global error handler
+        window.addEventListener('error', function(event) {
+            console.error('Global error:', event.error);
+            showError(
+                'Application Error',
+                'An unexpected error occurred. Please refresh the page to try again.'
+            );
+        });
+        
+        // Handle unhandled promise rejections
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Unhandled promise rejection:', event.reason);
+            event.preventDefault();
+        });
+        
+        // Service Worker Registration (for PWA features)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('SW registered: ', registration);
+                    })
+                    .catch(function(registrationError) {
+                        console.log('SW registration failed: ', registrationError);
+                    });
+            });
+        }
+        
+        // Performance monitoring
+        window.addEventListener('load', function() {
+            // Monitor loading performance
+            setTimeout(function() {
+                if (window.performance && window.performance.timing) {
+                    const loadTime = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
+                    console.log('Page load time:', loadTime + 'ms');
+                    
+                    // If page takes too long to load, show a message
+                    if (loadTime > 10000) { // 10 seconds
+                        console.warn('Slow page load detected');
+                    }
+                }
+            }, 100);
+        });
+        
+        // Check browser compatibility on load
+        if (!checkBrowserCompatibility()) {
+            // Browser compatibility check failed, error already shown
+        }
+        
+        // Expose function to hide loading screen for the React app
+        window.hideLoadingScreen = hideLoadingScreen;
+        
+        // Auto-hide loading screen after 10 seconds as fallback
+        setTimeout(function() {
+            if (!document.body.classList.contains('app-loaded')) {
+                console.warn('Loading screen auto-hide after timeout');
+                hideLoadingScreen();
+            }
+        }, 10000);
+    </script>
+    
+    <!-- Module Script for React App -->
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Fallback for browsers that don't support modules -->
+    <script nomodule>
+        showError(
+            'Browser Not Supported',
+            'Your browser does not support modern JavaScript modules. Please update to a newer version.'
+        );
+    </script>
+</body>
+</html>
