@@ -1,0 +1,160 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f7fa;
+}
+
+/* Header Section - Moved right to avoid menu button */
+.app-header-top {
+  background: white;
+  padding: 20px 32px 20px 80px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.bookmark-icon {
+  width: 56px;
+  height: 56px;
+  background: #fff7ed;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FF9100;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.header-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Main Content - Centered */
+.app-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer - Centered */
+.app-footer-bottom {
+  background: white;
+  border-top: 1px solid #e2e8f0;
+  padding: 20px 32px;
+  text-align: center;
+}
+
+.footer-branding {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #FF9100;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #E65100;
+  text-decoration: underline;
+}
+
+.footer-separator {
+  color: #cbd5e1;
+}
+
+/* Dark Mode Header */
+body.dark-mode .app-header-top {
+  background: #2d2d2d;
+  border-bottom-color: #404040;
+}
+
+body.dark-mode .header-title {
+  color: #FF9100;
+}
+
+body.dark-mode .header-subtitle {
+  color: #a0a0a0;
+}
+
+body.dark-mode .bookmark-icon {
+  background: #3d3d3d;
+}
+
+body.dark-mode .app-footer-bottom {
+  background: #2d2d2d;
+  border-top-color: #404040;
+}
+
+body.dark-mode .footer-branding {
+  color: #a0a0a0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-header-top {
+    padding: 16px 20px 16px 70px;
+  }
+
+  .header-title {
+    font-size: 22px;
+  }
+
+  .header-subtitle {
+    font-size: 12px;
+  }
+
+  .bookmark-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-separator {
+    display: none;
+  }
+}
