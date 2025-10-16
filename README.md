@@ -16,7 +16,7 @@
 
 Morgan AI 1.0 is an intelligent, full-stack chatbot platform designed to support Morgan State University Computer Science students throughout their academic journey. From freshman orientation to senior year capstone projects, Morgan AI provides personalized guidance and instant access to departmental resources.
 
-> **Note**: Morgan AI complements academic advisors—it doesn't replace them. Think of it as your 24/7 departmental assistant!
+> **Note**: Morgan AI complements academic advisors it doesn't replace them. Think of it as your 24/7 departmental assistant!
 
 ### 🎯 Purpose
 
