@@ -20,7 +20,7 @@ api.interceptors.request.use(
     
     // Log requests in development
     if (import.meta.env.DEV) {
-      console.log(`🔄 ${config.method?.toUpperCase()} ${config.url}`, config.data);
+      console.log(` ${config.method?.toUpperCase()} ${config.url}`, config.data);
     }
     
     return config;
@@ -36,7 +36,7 @@ api.interceptors.response.use(
   (response) => {
     // Log responses in development
     if (import.meta.env.DEV) {
-      console.log(`✅ ${response.config.method?.toUpperCase()} ${response.config.url}`, response.data);
+      console.log(` ${response.config.method?.toUpperCase()} ${response.config.url}`, response.data);
     }
     
     return response;
@@ -44,7 +44,7 @@ api.interceptors.response.use(
   (error) => {
     // Log errors in development
     if (import.meta.env.DEV) {
-      console.error(`❌ ${error.config?.method?.toUpperCase()} ${error.config?.url}`, error.response?.data || error.message);
+      console.error(` ${error.config?.method?.toUpperCase()} ${error.config?.url}`, error.response?.data || error.message);
     }
     
     // Handle specific error cases
@@ -357,4 +357,5 @@ export const apiService = new APIService();
 export { api };
 
 // Default export
+
 export default apiService;
