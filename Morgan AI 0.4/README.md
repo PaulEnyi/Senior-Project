@@ -136,6 +136,101 @@ All components follow Morgan State University's official branding:
 - Tone: Academic, helpful, supportive
 
 ---
-
+## Project Structure
+```
+Morgan AI 0.4/
+├── BackEnd/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── routes/
+│   │   │       └── chat.py
+│   │   ├── app/
+│   │   │   ├── api/
+│   │   │   ├── core/
+│   │   │   ├── main.py
+│   │   │   ├── models/
+│   │   │   ├── scripts/
+│   │   │   ├── services/
+│   │   │   ├── utils/
+│   │   │   └── __init__.py
+│   │   ├── core_requirements.txt
+│   │   ├── data/
+│   │   ├── Docker.dockerfile
+│   │   ├── langchain_requirements.txt
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   ├── scripts/
+│   │   │   ├── ingest_data.py
+│   │   │   └── simple_ingest.py
+│   │   ├── temp_requirements_for_install.txt
+│   │   └── __pycache__/
+├── FrontEnd/
+│   ├── App.css
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── nginx.conf
+│   ├── public/
+│   │   ├── apple-touch-icon.png
+│   │   ├── assets/
+│   │   ├── favicon.ico
+│   │   ├── index.css
+│   │   ├── index.html
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── Admin/
+│   │   │   ├── Auth/
+│   │   │   ├── Chart/
+│   │   │   ├── Chat/
+│   │   │   ├── Navigation/
+│   │   │   └── UI/
+│   │   ├── context/
+│   │   │   ├── ChatContext.jsx
+│   │   │   └── VoiceContext.jsx
+│   │   ├── hooks/
+│   │   │   ├── useaAmin.js
+│   │   │   ├── useAuth.js
+│   │   │   ├── useChat.js
+│   │   │   ├── useTheme.js
+│   │   │   ├── useVoice.js
+│   │   │   └── useWebSocket.js
+│   │   ├── main.jsx
+│   │   ├── services/
+│   │   │   ├── adminService.js
+│   │   │   ├── api.js
+│   │   │   ├── authService.js
+│   │   │   ├── realtimeAPI.js
+│   │   │   └── voiceService.js
+│   │   ├── styles/
+│   │   │   ├── admin.css
+│   │   │   ├── app.css
+│   │   │   ├── auth.css
+│   │   │   ├── chat.css
+│   │   │   ├── globals.css
+│   │   │   ├── index.css
+│   │   │   ├── login.css
+│   │   │   ├── navigation.css
+│   │   │   └── theme.css
+│   │   └── utils/
+│   │       ├── constants.js
+│   │       ├── formatters.js
+│   │       └── validators.js
+├── Doc/
+│   ├── AUTHENTICATION_SYSTEM.md
+│   ├── FEATURE_SUMMARY.md
+│   ├── QUICK_QUESTIONS_FEATURE.md
+│   └── SOCIAL_LOGIN_FEATURE.md
+├── uploads/
+├── nginx/
+│   └── nginx.conf
+├── Test/
+│   └── test_auth.ps1
+├── docker-compose.yaml
+├── package.json
+├── README.md
+└── logoai.png
+```
 ## License
 MIT
+
