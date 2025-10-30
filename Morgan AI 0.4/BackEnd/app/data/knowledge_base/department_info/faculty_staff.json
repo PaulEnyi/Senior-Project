@@ -1,0 +1,227 @@
+{
+  "department_chair": {
+    "name": "Dr. Debra Pettit",
+    "title": "Department Chair and Professor",
+    "office": "Science Complex 325",
+    "phone": "(443) 885-3130",
+    "email": "debra.pettit@morgan.edu",
+    "office_hours": "Monday-Friday 9:00 AM - 5:00 PM, or by appointment",
+    "research_interests": [
+      "Computer Science Education",
+      "Curriculum Development",
+      "STEM Diversity and Inclusion"
+    ],
+    "education": [
+      "Ph.D. in Computer Science, University of Maryland",
+      "M.S. in Computer Science, Johns Hopkins University",
+      "B.S. in Mathematics, Morgan State University"
+    ]
+  },
+  "full_time_faculty": [
+    {
+      "name": "Dr. Mohinder Grewal",
+      "title": "Professor",
+      "office": "Science Complex 327",
+      "phone": "(443) 885-3132",
+      "email": "mohinder.grewal@morgan.edu",
+      "office_hours": "Monday/Wednesday 2:00-4:00 PM, or by appointment",
+      "research_interests": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Neural Networks",
+        "Data Mining"
+      ],
+      "courses_taught": [
+        "COSC 340: Artificial Intelligence",
+        "COSC 425: Machine Learning",
+        "COSC 231: Algorithms"
+      ],
+      "education": [
+        "Ph.D. in Computer Science, George Washington University",
+        "M.S. in Computer Engineering, Virginia Tech"
+      ]
+    },
+    {
+      "name": "Dr. Enyue Lu",
+      "title": "Associate Professor",
+      "office": "Science Complex 329",
+      "phone": "(443) 885-3134",
+      "email": "enyue.lu@morgan.edu",
+      "office_hours": "Tuesday/Thursday 1:00-3:00 PM, or by appointment",
+      "research_interests": [
+        "Computer Graphics",
+        "Virtual Reality",
+        "Human-Computer Interaction",
+        "3D Modeling"
+      ],
+      "courses_taught": [
+        "COSC 350: Computer Graphics",
+        "COSC 385: Virtual Reality Systems",
+        "COSC 280: Software Engineering"
+      ],
+      "education": [
+        "Ph.D. in Computer Science, University of California, Los Angeles",
+        "M.S. in Computer Graphics, Carnegie Mellon University"
+      ]
+    },
+    {
+      "name": "Dr. Shaojie Zhang",
+      "title": "Associate Professor",
+      "office": "Science Complex 331",
+      "phone": "(443) 885-3136",
+      "email": "shaojie.zhang@morgan.edu",
+      "office_hours": "Monday/Wednesday/Friday 10:00-11:00 AM, or by appointment",
+      "research_interests": [
+        "Bioinformatics",
+        "Data Mining",
+        "Computational Biology",
+        "Big Data Analytics"
+      ],
+      "courses_taught": [
+        "COSC 420: Bioinformatics",
+        "COSC 415: Data Mining",
+        "COSC 310: Database Systems"
+      ],
+      "education": [
+        "Ph.D. in Bioinformatics, University of Pennsylvania",
+        "M.S. in Computer Science, Peking University"
+      ]
+    },
+    {
+      "name": "Dr. Craig Scott",
+      "title": "Assistant Professor",
+      "office": "Science Complex 333",
+      "phone": "(443) 885-3138",
+      "email": "craig.scott@morgan.edu",
+      "office_hours": "Tuesday/Thursday 2:00-4:00 PM, or by appointment",
+      "research_interests": [
+        "Cybersecurity",
+        "Network Security",
+        "Cryptography",
+        "Information Assurance"
+      ],
+      "courses_taught": [
+        "COSC 360: Cybersecurity Fundamentals",
+        "COSC 465: Network Security",
+        "COSC 320: Computer Networks"
+      ],
+      "education": [
+        "Ph.D. in Computer Science, University of Maryland Baltimore County",
+        "M.S. in Information Security, Carnegie Mellon University"
+      ]
+    },
+    {
+      "name": "Prof. Angela Johnson",
+      "title": "Senior Lecturer",
+      "office": "Science Complex 335",
+      "phone": "(443) 885-3140",
+      "email": "angela.johnson@morgan.edu",
+      "office_hours": "Monday/Wednesday 3:00-5:00 PM, or by appointment",
+      "specialization": [
+        "Programming Languages",
+        "Software Development",
+        "Web Development",
+        "Computer Science Education"
+      ],
+      "courses_taught": [
+        "COSC 111: Programming I",
+        "COSC 112: Programming II",
+        "COSC 211: Data Structures",
+        "COSC 370: Web Development"
+      ],
+      "education": [
+        "M.S. in Computer Science, Johns Hopkins University",
+        "B.S. in Computer Science, Morgan State University"
+      ]
+    },
+    {
+      "name": "Dr. Michael Thompson",
+      "title": "Assistant Professor",
+      "office": "Science Complex 337",
+      "phone": "(443) 885-3142",
+      "email": "michael.thompson@morgan.edu",
+      "office_hours": "Tuesday/Thursday 11:00 AM-1:00 PM, or by appointment",
+      "research_interests": [
+        "Software Engineering",
+        "Agile Development",
+        "Software Architecture",
+        "DevOps"
+      ],
+      "courses_taught": [
+        "COSC 280: Software Engineering",
+        "COSC 480: Software Architecture",
+        "COSC 485: DevOps and Deployment"
+      ],
+      "education": [
+        "Ph.D. in Software Engineering, University of Virginia",
+        "M.S. in Computer Science, Virginia Tech"
+      ]
+    }
+  ],
+  "adjunct_faculty": [
+    {
+      "name": "Prof. Sarah Williams",
+      "title": "Adjunct Professor",
+      "email": "sarah.williams@morgan.edu",
+      "courses_taught": [
+        "COSC 225: Computer Architecture",
+        "COSC 315: Operating Systems"
+      ],
+      "industry_experience": "Senior Software Engineer at Lockheed Martin"
+    },
+    {
+      "name": "Prof. David Chen",
+      "title": "Adjunct Professor", 
+      "email": "david.chen@morgan.edu",
+      "courses_taught": [
+        "COSC 390: Mobile App Development",
+        "COSC 395: Cloud Computing"
+      ],
+      "industry_experience": "Lead Developer at Amazon Web Services"
+    }
+  ],
+  "administrative_staff": [
+    {
+      "name": "Ms. Patricia Williams",
+      "title": "Administrative Assistant",
+      "office": "Science Complex 325A",
+      "phone": "(443) 885-3131",
+      "email": "patricia.williams@morgan.edu",
+      "responsibilities": [
+        "Student services and inquiries",
+        "Scheduling and appointments",
+        "Enrollment PIN distribution",
+        "General department information",
+        "Form processing and documentation"
+      ],
+      "office_hours": "Monday-Friday 8:30 AM - 5:00 PM"
+    },
+    {
+      "name": "Mr. Robert Martinez",
+      "title": "IT Support Specialist",
+      "office": "Science Complex 315",
+      "phone": "(443) 885-3145",
+      "email": "robert.martinez@morgan.edu",
+      "responsibilities": [
+        "Computer lab maintenance",
+        "Student account management",
+        "Software installation and updates",
+        "Technical support for faculty and students"
+      ],
+      "office_hours": "Monday-Friday 9:00 AM - 6:00 PM"
+    }
+  ],
+  "emeritus_faculty": [
+    {
+      "name": "Dr. James Washington",
+      "title": "Professor Emeritus",
+      "specialization": "Theoretical Computer Science",
+      "years_of_service": "1985-2020",
+      "notable_contributions": [
+        "Founded the CS department's theoretical computing program",
+        "Published over 50 research papers in computational complexity"
+      ]
+    }
+  ]
+}
+

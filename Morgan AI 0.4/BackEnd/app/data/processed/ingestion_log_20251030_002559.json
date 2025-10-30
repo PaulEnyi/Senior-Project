@@ -1,0 +1,13 @@
+{
+  "success": false,
+  "error": "'PineconeService' object has no attribute 'process_documents'",
+  "start_time": "2025-10-30T00:25:59.492891",
+  "end_time": "2025-10-30T00:25:59.807505",
+  "statistics": {
+    "files_processed": 15,
+    "documents_created": 15,
+    "chunks_generated": 0,
+    "vectors_stored": 0,
+    "errors": []
+  }
+}
