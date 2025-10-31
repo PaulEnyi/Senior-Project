@@ -1,6 +1,0 @@
-# Vector Database and LangChain - Compatible versions for Python 3.11
-pinecone-client>=2.2.2
-langchain>=0.0.200
-langchain-openai>=0.0.2
-langchain-community>=0.0.10
-langchain-pinecone>=0.1.0

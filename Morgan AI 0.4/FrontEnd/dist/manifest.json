@@ -1,8 +1,0 @@
-{
-  "name": "Morgan AI Chatbot",
-  "short_name": "MorganAI",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#F47B20",
-  "description": "Morgan State University Computer Science AI Assistant"
-}
