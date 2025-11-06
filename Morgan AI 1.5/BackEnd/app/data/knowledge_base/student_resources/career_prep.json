@@ -1,0 +1,291 @@
+{
+  "career_preparation": {
+    "overview": "The Morgan State Computer Science Department provides comprehensive career preparation resources to help students secure internships, prepare for technical interviews, and launch successful careers in technology.",
+    "department_career_services": {
+      "coordinator": "Dr. Craig Scott",
+      "office": "Science Complex, Room 333",
+      "email": "craig.scott@morgan.edu",
+      "office_hours": "TTh 2:00-4:00 PM, or by appointment",
+      "services": [
+        "Resume and cover letter review",
+        "Mock technical interviews",
+        "Career path guidance",
+        "Industry connections and referrals",
+        "Graduate school application assistance"
+      ]
+    },
+    "internship_programs": {
+      "early_career_programs": [
+        {
+          "program": "Google STEP (Student Training in Engineering Program)",
+          "target_audience": "First and second-year undergraduates from underrepresented groups",
+          "duration": "10-12 week summer internship",
+          "application_timeline": {
+            "opens": "October",
+            "deadline": "December",
+            "interviews": "January-February",
+            "decisions": "March"
+          },
+          "requirements": [
+            "Currently enrolled in undergraduate CS or related program",
+            "Completed at least one programming course",
+            "Strong academic performance (3.0+ GPA recommended)",
+            "Interest in computer science and technology"
+          ],
+          "preparation_tips": [
+            "Complete data structures and algorithms coursework",
+            "Build 2-3 coding projects for portfolio",
+            "Practice coding problems on LeetCode/HackerRank",
+            "Prepare for behavioral interviews"
+          ],
+          "morgan_alumni_contacts": [
+            "Available through department for advice and referrals"
+          ]
+        },
+        {
+          "program": "Microsoft Explore Program",
+          "target_audience": "First and second-year undergraduate students",
+          "duration": "12-week summer program",
+          "tracks": ["Program Management", "Software Engineering"],
+          "application_timeline": {
+            "opens": "September",
+            "deadline": "January",
+            "interviews": "February-March",
+            "decisions": "April"
+          },
+          "requirements": [
+            "Completed at least one programming course",
+            "Interest in technology and software development",
+            "Leadership experience preferred",
+            "Strong communication skills"
+          ],
+          "unique_features": [
+            "Rotation between different teams",
+            "Mentorship from full-time employees",
+            "Return offer potential for following summer",
+            "Professional development workshops"
+          ]
+        },
+        {
+          "program": "Facebook University (Meta University)",
+          "target_audience": "Underrepresented students in their first or second year",
+          "duration": "8-week summer program",
+          "application_timeline": {
+            "opens": "October",
+            "deadline": "January",
+            "interviews": "February-March"
+          },
+          "focus_areas": [
+            "Software engineering fundamentals",
+            "Product development",
+            "Mobile development",
+            "Data science"
+          ]
+        }
+      ],
+      "traditional_internships": [
+        {
+          "category": "Technology Companies",
+          "companies": [
+            "Amazon",
+            "Apple", 
+            "IBM",
+            "Salesforce",
+            "Adobe",
+            "Cisco",
+            "Intel",
+            "NVIDIA"
+          ],
+          "application_period": "September-December for following summer",
+          "typical_requirements": [
+            "Junior or senior standing",
+            "Strong programming skills in multiple languages",
+            "Data structures and algorithms knowledge",
+            "Previous internship or project experience preferred"
+          ]
+        },
+        {
+          "category": "Financial Services",
+          "companies": [
+            "JPMorgan Chase",
+            "Goldman Sachs",
+            "Bank of America",
+            "Capital One",
+            "Bloomberg"
+          ],
+          "focus": "Fintech, trading systems, risk management",
+          "unique_requirements": [
+            "Interest in finance and markets",
+            "Strong analytical skills",
+            "Sometimes requires finance coursework"
+          ]
+        },
+        {
+          "category": "Government and Defense",
+          "organizations": [
+            "NASA Goddard Space Flight Center",
+            "National Security Agency (NSA)",
+            "Department of Defense",
+            "National Institute of Standards and Technology (NIST)"
+          ],
+          "benefits": [
+            "Security clearance opportunities",
+            "Public service experience",
+            "Cutting-edge research projects",
+            "Excellent benefits and work-life balance"
+          ],
+          "requirements": [
+            "US citizenship typically required",
+            "Background check process",
+            "Strong academic record"
+          ]
+        }
+      ],
+      "local_opportunities": {
+        "baltimore_dc_area": [
+          "Under Armour (Baltimore)",
+          "T. Rowe Price (Baltimore)",
+          "Booz Allen Hamilton (DC area)",
+          "Lockheed Martin (DC area)",
+          "Accenture Federal (DC area)",
+          "Social & Scientific Systems",
+          "McCormick & Company"
+        ],
+        "startup_ecosystem": [
+          "Baltimore startups through TEDCO",
+          "DC tech incubators",
+          "University of Maryland research partnerships"
+        ]
+      }
+    },
+    "technical_interview_preparation": {
+      "timeline": {
+        "6_months_before": [
+          "Master data structures and algorithms fundamentals",
+          "Complete easy LeetCode problems consistently",
+          "Review CS coursework (especially COSC 211, 231)"
+        ],
+        "3_months_before": [
+          "Increase to medium difficulty problems",
+          "Practice system design basics",
+          "Mock interviews with peers or career center"
+        ],
+        "1_month_before": [
+          "Daily coding practice",
+          "Company-specific interview preparation",
+          "Review behavioral questions and experiences"
+        ]
+      },
+      "core_topics": [
+        {
+          "category": "Data Structures",
+          "topics": ["Arrays", "Linked Lists", "Stacks", "Queues", "Trees", "Graphs", "Hash Tables", "Heaps"],
+          "morgan_courses": "Covered in COSC 211 (Data Structures)"
+        },
+        {
+          "category": "Algorithms",
+          "topics": ["Sorting", "Searching", "Graph Algorithms", "Dynamic Programming", "Greedy Algorithms", "Recursion"],
+          "morgan_courses": "Covered in COSC 231 (Algorithms)"
+        },
+        {
+          "category": "System Design",
+          "topics": ["Scalability", "Load Balancing", "Database Design", "Caching", "Microservices"],
+          "morgan_courses": "Elements in COSC 280 (Software Engineering), COSC 310 (Database Systems)"
+        }
+      ],
+      "problem_solving_approach": [
+        "Understand the problem thoroughly",
+        "Ask clarifying questions",
+        "Work through examples",
+        "Identify patterns and edge cases",
+        "Code with clean, readable style",
+        "Test with sample inputs",
+        "Discuss time and space complexity"
+      ]
+    },
+    "career_development_workshops": {
+      "recurring_workshops": [
+        {
+          "title": "Resume Building for Tech Careers",
+          "frequency": "Monthly",
+          "content": ["Technical skills presentation", "Project descriptions", "ATS optimization", "GitHub portfolio integration"],
+          "presenter": "Department faculty and industry guests"
+        },
+        {
+          "title": "Behavioral Interview Mastery",
+          "frequency": "Bi-monthly", 
+          "content": ["STAR method", "Leadership examples", "Teamwork scenarios", "Handling failure and challenges"],
+          "format": "Interactive practice sessions"
+        },
+        {
+          "title": "Salary Negotiation for New Grads",
+          "frequency": "Each semester",
+          "topics": ["Market research", "Negotiation strategies", "Benefits evaluation", "Counter-offer handling"],
+          "target": "Seniors and graduate students"
+        }
+      ],
+      "special_events": [
+        {
+          "event": "Annual Tech Career Fair",
+          "timing": "March",
+          "participants": "40+ companies and organizations",
+          "preparation": "Resume review sessions and mock interviews offered beforehand"
+        },
+        {
+          "event": "Alumni Career Panel", 
+          "timing": "November",
+          "format": "Panel discussion with recent graduates in various tech roles",
+          "networking": "Reception following panel"
+        }
+      ]
+    },
+    "mentorship_programs": {
+      "peer_mentorship": {
+        "program": "CS Student Mentorship Program",
+        "structure": "Junior/senior students mentor freshmen/sophomores",
+        "commitment": "One semester minimum",
+        "activities": ["Monthly one-on-one meetings", "Group study sessions", "Career guidance", "Course planning"],
+        "signup": "Beginning of each semester through department"
+      },
+      "industry_mentorship": {
+        "program": "Alumni Professional Mentorship",
+        "structure": "Working professionals mentor current students",
+        "duration": "Academic year",
+        "application": "Competitive application process",
+        "benefits": ["Industry insights", "Networking opportunities", "Real-world project guidance", "Potential job referrals"]
+      }
+    },
+    "professional_development": {
+      "communication_skills": [
+        "Technical presentation workshops",
+        "Writing for technical audiences",
+        "Client communication basics",
+        "Cross-functional team collaboration"
+      ],
+      "leadership_development": [
+        "Student organization leadership roles",
+        "Project management fundamentals",
+        "Team leadership in group projects",
+        "Conflict resolution skills"
+      ],
+      "continuous_learning": [
+        "Industry certification guidance (AWS, Google Cloud, etc.)",
+        "Open source contribution workshops",
+        "Conference attendance support",
+        "Professional organization memberships (ACM, IEEE)"
+      ]
+    },
+    "success_metrics": {
+      "placement_rates": {
+        "internship_placement": "85% of applicants secure internships",
+        "full_time_placement": "95% placement rate within 6 months of graduation",
+        "graduate_school_acceptance": "90% acceptance rate for applicants"
+      },
+      "average_outcomes": {
+        "starting_salaries": "$75,000 - $95,000 for entry-level positions",
+        "internship_compensation": "$20-35/hour or $6,000-10,000 for summer programs",
+        "return_offer_rates": "70% of interns receive return offers"
+      }
+    }
+  }
+}
