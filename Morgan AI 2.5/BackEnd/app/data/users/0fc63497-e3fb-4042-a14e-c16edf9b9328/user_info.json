@@ -1,0 +1,13 @@
+{
+  "user_id": "0fc63497-e3fb-4042-a14e-c16edf9b9328",
+  "email": "testfaculty1764665300@test.com",
+  "username": "testfacultyuser1764665300",
+  "full_name": "testfacultyuser1764665300",
+  "password_hash": "$2b$12$.dSUL2oDdUM2xl9zI8L4qOCJaeAH1ggt93npvn5/raNG.B22ZjGZu",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-02T08:48:22.909055",
+  "updated_at": "2025-12-02T08:48:23.687664",
+  "last_login": "2025-12-02T08:48:23.687613"
+}
