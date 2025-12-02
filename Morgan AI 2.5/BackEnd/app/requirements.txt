@@ -1,0 +1,72 @@
+# BackEnd Python dependencies
+# Recommended: create a Python 3.11 virtual environment before installing
+# Windows (PowerShell):
+#   python -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+# macOS / Linux (bash/zsh):
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+# Then:
+#   pip install --upgrade pip setuptools wheel
+#   pip install -r BackEnd/app/requirements.txt
+
+# Core FastAPI Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+websockets==13.1
+
+# OpenAI Integration
+openai==1.54.0
+tiktoken==0.8.0
+
+# Vector Database
+pinecone-client==5.0.1
+
+# LangChain Ecosystem (pinned to versions compatible with numpy<2)
+langchain==0.3.7
+langchain-openai==0.2.5
+langchain-community==0.3.7
+langchain-pinecone==0.2.0
+
+# Data Processing
+# langchain 0.3.7 requires numpy < 2, so use a 1.x numpy
+numpy==1.26.4
+pandas==2.2.3
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# Database
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+asyncpg==0.29.0
+aiosqlite==0.20.0
+
+# Caching
+redis==5.2.0
+
+# HTTP Client
+httpx==0.27.2
+aiohttp==3.9.5
+
+# Utilities
+python-dateutil==2.9.0
+pytz==2024.2
+watchdog==5.0.3
+beautifulsoup4==4.12.3
+lxml==5.3.0
+PyPDF2==3.0.1
+psutil==5.9.8
+
+# Notes:
+# - On Windows, installing some packages (e.g., psycopg2) may require build tools.
+#   Using `psycopg2-binary` helps avoid compilation steps for local development.
+# - If you run into dependency conflicts, create a fresh virtualenv and retry.
+# - For production, prefer pinned dependencies and test upgrades in a branch.

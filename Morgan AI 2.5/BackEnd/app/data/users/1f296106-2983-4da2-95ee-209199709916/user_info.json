@@ -1,0 +1,13 @@
+{
+  "user_id": "1f296106-2983-4da2-95ee-209199709916",
+  "email": "tts-test-1738864903@example.com",
+  "username": "ttstest679755417",
+  "full_name": "ttstest679755417",
+  "password_hash": "$2b$12$BkOC8hF55r0zoGxZJPKeCuP1IzCoYJD8h4iuuD7dXB64LgXsKnu6O",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-01T20:05:43.362911",
+  "updated_at": "2025-12-01T20:05:43.362950",
+  "last_login": null
+}

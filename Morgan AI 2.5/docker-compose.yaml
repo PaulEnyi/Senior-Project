@@ -1,0 +1,131 @@
+services:
+  # Backend API Service
+  backend:
+    build:
+      context: ./BackEnd/app
+      dockerfile: Docker.dockerfile
+    container_name: morgan-chatbot-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://morgan:morgan123@postgres:5432/morgan_chatbot
+      - REDIS_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - PINECONE_ENVIRONMENT=${PINECONE_ENVIRONMENT}
+      - SECRET_KEY=${SECRET_KEY}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - GROUPME_ACCESS_TOKEN=${GROUPME_ACCESS_TOKEN}
+      - GROUPME_BOT_ID=${GROUPME_BOT_ID}
+      - GROUPME_GROUP_ID=${GROUPME_GROUP_ID}
+    volumes:
+      - ./BackEnd/app:/app
+      - ./BackEnd/uploads:/uploads
+      - knowledge_base:/app/data/knowledge_base
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - morgan-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend React Application
+  frontend:
+    build:
+      context: .
+      dockerfile: FrontEnd/Dockerfile
+    container_name: morgan-chatbot-frontend
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_URL=
+      - VITE_WS_URL=
+    depends_on:
+      - backend
+    networks:
+      - morgan-network
+    restart: unless-stopped
+
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: morgan-chatbot-postgres
+    environment:
+      - POSTGRES_USER=morgan
+      - POSTGRES_PASSWORD=morgan123
+      - POSTGRES_DB=morgan_chatbot
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - morgan-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U morgan -d morgan_chatbot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: morgan-chatbot-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - morgan-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # Nginx Reverse Proxy (Optional for production)
+  nginx:
+    image: nginx:alpine
+    container_name: morgan-chatbot-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - morgan-network
+    restart: unless-stopped
+
+  # Adminer for Database Management (Development only)
+  adminer:
+    image: adminer
+    container_name: morgan-chatbot-adminer
+    ports:
+      - "8080:8080"
+    environment:
+      - ADMINER_DEFAULT_SERVER=postgres
+    networks:
+      - morgan-network
+    profiles:
+      - dev
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  knowledge_base:
+    driver: local
+
+networks:
+  morgan-network:
+    driver: bridge
