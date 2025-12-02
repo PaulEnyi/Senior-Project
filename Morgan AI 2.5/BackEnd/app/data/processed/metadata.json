@@ -1,0 +1,55 @@
+{
+  "processing_info": {
+    "last_processed": "2024-01-15T10:30:00Z",
+    "processing_time_seconds": 145.7,
+    "version": "1.0.0",
+    "processor": "langchain_service"
+  },
+  "source_data": {
+    "files_processed": [
+      {
+        "filename": "training_data.txt",
+        "size_bytes": 45829,
+        "last_modified": "2024-01-14T15:20:00Z",
+        "chunks_created": 89,
+        "category": "general"
+      },
+      {
+        "filename": "faculty_staff.json", 
+        "size_bytes": 12456,
+        "last_modified": "2024-01-14T12:10:00Z",
+        "chunks_created": 23,
+        "category": "faculty"
+      }
+    ],
+    "total_source_files": 8,
+    "total_source_size_bytes": 128493
+  },
+  "embedding_stats": {
+    "total_embeddings": 245,
+    "average_chunk_size": 387,
+    "model_used": "text-embedding-ada-002",
+    "dimension": 1536,
+    "total_tokens_processed": 94875
+  },
+  "chunking_config": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "separators": ["\n\n", "\n", ". ", " "]
+  },
+  "categories": [
+    "department_info",
+    "faculty", 
+    "courses",
+    "academics",
+    "student_resources",
+    "administrative"
+  ],
+  "pinecone_upload": {
+    "index_name": "morgan-ai-knowledge",
+    "uploaded_at": "2024-01-15T10:32:00Z",
+    "upload_successful": true,
+    "vectors_uploaded": 245,
+    "batch_size": 100
+  }
+}

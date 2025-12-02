@@ -1,0 +1,13 @@
+{
+  "user_id": "960456e5-bae1-435d-9478-90e33174f996",
+  "email": "chat961846206@test.com",
+  "username": "user1115809029",
+  "full_name": "user1115809029",
+  "password_hash": "$2b$12$1MGvkkLBafnsEoxweAnCnuxzB2Op5y1nnSlpJ0W7N.A3d.4vjY/JC",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-01T20:10:44.676120",
+  "updated_at": "2025-12-01T20:10:44.676160",
+  "last_login": null
+}

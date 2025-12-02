@@ -1,0 +1,1102 @@
+{
+  "id": "d7ab50de-6026-4250-a175-3e60ee29080b",
+  "file_name": "degree_work_20251121_204518.pdf",
+  "file_path": "/app/data/users/75abac6e-dffd-44dc-a5ed-3e63d28bd216/degree_works/degree_work_20251121_204518.pdf",
+  "uploaded_at": "2025-11-24T04:51:34.088547",
+  "file_size": 19359,
+  "parsed_data": {
+    "success": true,
+    "parsed_at": "2025-11-24T04:51:33.927681",
+    "student_info": {
+      "name": "Activity, Adulting"
+    },
+    "academic_summary": {
+      "gpa": 3.317,
+      "completed_credits": 132.0,
+      "total_credits_required": 120.0,
+      "in_progress_credits": 12.0,
+      "classification": "Senior",
+      "remaining_credits": 0
+    },
+    "courses": {
+      "completed": [
+        {
+          "course_code": "ORNS 106",
+          "course_name": "FRES. ORNS. FOR MAJ SCMNS (OR)",
+          "credits": 1.0,
+          "grade": "B",
+          "term": "Fall 2021",
+          "category": "General Education"
+        },
+        {
+          "course_code": "COSC 111",
+          "course_name": "INTRO TO COMPUTER SCIENCE I",
+          "credits": 4.0,
+          "grade": "B",
+          "term": "Fall 2021",
+          "category": "General Education"
+        },
+        {
+          "course_code": "ENGL 101",
+          "course_name": "FRESHMAN COMPOSITION I (EC)",
+          "credits": 3.0,
+          "grade": "C",
+          "term": "Fall 2021",
+          "category": "General Education"
+        },
+        {
+          "course_code": "ENGL 102",
+          "course_name": "FRESH COMPOSITION II (EC)",
+          "credits": 3.0,
+          "grade": "C",
+          "term": "Fall 2022",
+          "category": "General Education"
+        },
+        {
+          "course_code": "ENGR 110",
+          "course_name": "ENGINEERING FOR US ALL (CT)",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2023",
+          "category": "General Education"
+        },
+        {
+          "course_code": "MATH 312",
+          "course_name": "LINEAR ALGEBRA I",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2023",
+          "category": "General Education"
+        },
+        {
+          "course_code": "HUMA 201",
+          "course_name": "INTRO TO HUMANITIES I (AH)",
+          "credits": 3.0,
+          "grade": "B",
+          "term": null,
+          "category": "General Education"
+        },
+        {
+          "course_code": "RELG 305",
+          "course_name": "INTRO TO WORLD RELIGIONS (AH)",
+          "credits": 3.0,
+          "grade": "A",
+          "term": null,
+          "category": "General Education"
+        },
+        {
+          "course_code": "EASC 205",
+          "course_name": "INTRODUCTORY EARTH SCI (BP)",
+          "credits": 4.0,
+          "grade": "C",
+          "term": "Spring 2024",
+          "category": "General Education"
+        },
+        {
+          "course_code": "EASC 102",
+          "course_name": "METEOROLOGY (BP)",
+          "credits": 3.0,
+          "grade": "B",
+          "term": "Spring 2023",
+          "category": "General Education"
+        },
+        {
+          "course_code": "HIST 101",
+          "course_name": "WORLD HISTORY I (SB)",
+          "credits": 3.0,
+          "grade": "B",
+          "term": "Spring 2024",
+          "category": "General Education"
+        },
+        {
+          "course_code": "MHTC 103",
+          "course_name": "INTRO TO GROUP DYNAMICS (SB)",
+          "credits": 3.0,
+          "grade": "B",
+          "term": "Spring 2022",
+          "category": "General Education"
+        },
+        {
+          "course_code": "NUSC 160",
+          "course_name": "INTRO TO NUTRITION (HH)",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Spring 2025",
+          "category": "General Education"
+        },
+        {
+          "course_code": "HIST 350",
+          "course_name": "INTRO TO THE AFRICAN DIAS (CI)",
+          "credits": 3.0,
+          "grade": "B",
+          "term": "Spring 2023",
+          "category": "General Education"
+        },
+        {
+          "course_code": "MATH 241",
+          "course_name": "CALCULUS I",
+          "credits": 4.0,
+          "grade": "B",
+          "term": "Spring 2023",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "MATH 242",
+          "course_name": "CALCULUS II",
+          "credits": 4.0,
+          "grade": "A",
+          "term": "Summer 2024",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "MATH 331",
+          "course_name": "APPLIED PROB & STAT",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2024",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 201",
+          "course_name": "COMPUTER ETHICS",
+          "credits": 1.0,
+          "grade": "A",
+          "term": "Spring 2025",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 112",
+          "course_name": "INTRO TO COMPUTER SCIENCE II",
+          "credits": 4.0,
+          "grade": "B",
+          "term": "Spring 2022",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 220",
+          "course_name": "DATA STRUC & ALGORITHMS",
+          "credits": 4.0,
+          "grade": "B",
+          "term": "Fall 2022",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 241",
+          "course_name": "COMPUTER SYSTEMS & DIG LOGIC",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2022",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 281",
+          "course_name": "DISCRETE STRUCTURES",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2023",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 349",
+          "course_name": "COMPUTER NETWORKS",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2024",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 354",
+          "course_name": "OPERATING SYSTEMS",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Spring 2025",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 458",
+          "course_name": "SOFTWARE ENGINEERING",
+          "credits": 3.0,
+          "grade": "C",
+          "term": "Fall 2024",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 459",
+          "course_name": "DATABASE DESIGN",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2024",
+          "category": "Supporting Courses"
+        },
+        {
+          "course_code": "COSC 243",
+          "course_name": "COMPUTER ARCHITECTURE",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Spring 2024",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 251",
+          "course_name": "INTRODUCTION TO DATA SCIENCE",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2023",
+          "category": "Electives"
+        },
+        {
+          "course_code": "MATH 313",
+          "course_name": "LINEAR ALGEBRA II",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Spring 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 470",
+          "course_name": "ARTIFICAL INTELLIGENCE",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Fall 2024",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 472",
+          "course_name": "INTRO TO MACHINE LEARNING",
+          "credits": 3.0,
+          "grade": "A",
+          "term": "Spring 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "MATH 113",
+          "course_name": "INTRO TO MATH ANALYSIS I (MQ)",
+          "credits": 4.0,
+          "grade": "B",
+          "term": "Spring 2022",
+          "category": "Complementary Studies"
+        },
+        {
+          "course_code": "MATH 114",
+          "course_name": "INTRO TO MATH ANALYSIS II",
+          "credits": 4.0,
+          "grade": "A",
+          "term": "Fall 2022",
+          "category": "Complementary Studies"
+        },
+        {
+          "course_code": "COSC 332",
+          "course_name": "INTRO TO GAME DESIGN & DEV.",
+          "credits": 0.0,
+          "grade": "F",
+          "term": "Spring 2024",
+          "category": "Electives"
+        }
+      ],
+      "in_progress": [
+        {
+          "course_code": "COSC 460",
+          "course_name": "COMPUTER GRAPHICS",
+          "credits": 3.0,
+          "grade": "IP",
+          "term": "Fall 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 490",
+          "course_name": "SENIOR PROJECT",
+          "credits": 3.0,
+          "grade": "IP",
+          "term": "Fall 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "MATH 120",
+          "course_name": "INTRO TO PROB & DEC MAKING",
+          "credits": 3.0,
+          "grade": "IP",
+          "term": "Fall 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 001",
+          "course_name": "COMPUTER SCIENCE SENIOR COMP",
+          "credits": 0.0,
+          "grade": "IP",
+          "term": "Fall 2025",
+          "category": "Electives"
+        },
+        {
+          "course_code": "COSC 499",
+          "course_name": "SENIOR RSCH OR TCHG/TUTOR ASST",
+          "credits": 3.0,
+          "grade": "IP",
+          "term": "Fall 2025",
+          "category": "Electives"
+        }
+      ],
+      "remaining": []
+    },
+    "course_timeline": {
+      "Fall 2021": {
+        "completed": [
+          {
+            "course_code": "ORNS 106",
+            "course_name": "FRES. ORNS. FOR MAJ SCMNS (OR)",
+            "credits": 1.0,
+            "grade": "B",
+            "term": "Fall 2021",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 111",
+            "course_name": "INTRO TO COMPUTER SCIENCE I",
+            "credits": 4.0,
+            "grade": "B",
+            "term": "Fall 2021",
+            "category": "General Education"
+          },
+          {
+            "course_code": "ENGL 101",
+            "course_name": "FRESHMAN COMPOSITION I (EC)",
+            "credits": 3.0,
+            "grade": "C",
+            "term": "Fall 2021",
+            "category": "General Education"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Spring 2022": {
+        "completed": [
+          {
+            "course_code": "MHTC 103",
+            "course_name": "INTRO TO GROUP DYNAMICS (SB)",
+            "credits": 3.0,
+            "grade": "B",
+            "term": "Spring 2022",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 112",
+            "course_name": "INTRO TO COMPUTER SCIENCE II",
+            "credits": 4.0,
+            "grade": "B",
+            "term": "Spring 2022",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "MATH 113",
+            "course_name": "INTRO TO MATH ANALYSIS I (MQ)",
+            "credits": 4.0,
+            "grade": "B",
+            "term": "Spring 2022",
+            "category": "Complementary Studies"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Fall 2022": {
+        "completed": [
+          {
+            "course_code": "ENGL 102",
+            "course_name": "FRESH COMPOSITION II (EC)",
+            "credits": 3.0,
+            "grade": "C",
+            "term": "Fall 2022",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 220",
+            "course_name": "DATA STRUC & ALGORITHMS",
+            "credits": 4.0,
+            "grade": "B",
+            "term": "Fall 2022",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 241",
+            "course_name": "COMPUTER SYSTEMS & DIG LOGIC",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2022",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "MATH 114",
+            "course_name": "INTRO TO MATH ANALYSIS II",
+            "credits": 4.0,
+            "grade": "A",
+            "term": "Fall 2022",
+            "category": "Complementary Studies"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Spring 2023": {
+        "completed": [
+          {
+            "course_code": "EASC 102",
+            "course_name": "METEOROLOGY (BP)",
+            "credits": 3.0,
+            "grade": "B",
+            "term": "Spring 2023",
+            "category": "General Education"
+          },
+          {
+            "course_code": "HIST 350",
+            "course_name": "INTRO TO THE AFRICAN DIAS (CI)",
+            "credits": 3.0,
+            "grade": "B",
+            "term": "Spring 2023",
+            "category": "General Education"
+          },
+          {
+            "course_code": "MATH 241",
+            "course_name": "CALCULUS I",
+            "credits": 4.0,
+            "grade": "B",
+            "term": "Spring 2023",
+            "category": "Supporting Courses"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Fall 2023": {
+        "completed": [
+          {
+            "course_code": "ENGR 110",
+            "course_name": "ENGINEERING FOR US ALL (CT)",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2023",
+            "category": "General Education"
+          },
+          {
+            "course_code": "MATH 312",
+            "course_name": "LINEAR ALGEBRA I",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2023",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 281",
+            "course_name": "DISCRETE STRUCTURES",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2023",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 251",
+            "course_name": "INTRODUCTION TO DATA SCIENCE",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2023",
+            "category": "Electives"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Spring 2024": {
+        "completed": [
+          {
+            "course_code": "EASC 205",
+            "course_name": "INTRODUCTORY EARTH SCI (BP)",
+            "credits": 4.0,
+            "grade": "C",
+            "term": "Spring 2024",
+            "category": "General Education"
+          },
+          {
+            "course_code": "HIST 101",
+            "course_name": "WORLD HISTORY I (SB)",
+            "credits": 3.0,
+            "grade": "B",
+            "term": "Spring 2024",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 243",
+            "course_name": "COMPUTER ARCHITECTURE",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Spring 2024",
+            "category": "Electives"
+          },
+          {
+            "course_code": "COSC 332",
+            "course_name": "INTRO TO GAME DESIGN & DEV.",
+            "credits": 0.0,
+            "grade": "F",
+            "term": "Spring 2024",
+            "category": "Electives"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Summer 2024": {
+        "completed": [
+          {
+            "course_code": "MATH 242",
+            "course_name": "CALCULUS II",
+            "credits": 4.0,
+            "grade": "A",
+            "term": "Summer 2024",
+            "category": "Supporting Courses"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Fall 2024": {
+        "completed": [
+          {
+            "course_code": "MATH 331",
+            "course_name": "APPLIED PROB & STAT",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2024",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 349",
+            "course_name": "COMPUTER NETWORKS",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2024",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 458",
+            "course_name": "SOFTWARE ENGINEERING",
+            "credits": 3.0,
+            "grade": "C",
+            "term": "Fall 2024",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 459",
+            "course_name": "DATABASE DESIGN",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2024",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 470",
+            "course_name": "ARTIFICAL INTELLIGENCE",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Fall 2024",
+            "category": "Electives"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Spring 2025": {
+        "completed": [
+          {
+            "course_code": "NUSC 160",
+            "course_name": "INTRO TO NUTRITION (HH)",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Spring 2025",
+            "category": "General Education"
+          },
+          {
+            "course_code": "COSC 201",
+            "course_name": "COMPUTER ETHICS",
+            "credits": 1.0,
+            "grade": "A",
+            "term": "Spring 2025",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "COSC 354",
+            "course_name": "OPERATING SYSTEMS",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Spring 2025",
+            "category": "Supporting Courses"
+          },
+          {
+            "course_code": "MATH 313",
+            "course_name": "LINEAR ALGEBRA II",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Spring 2025",
+            "category": "Electives"
+          },
+          {
+            "course_code": "COSC 472",
+            "course_name": "INTRO TO MACHINE LEARNING",
+            "credits": 3.0,
+            "grade": "A",
+            "term": "Spring 2025",
+            "category": "Electives"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      },
+      "Fall 2025": {
+        "completed": [],
+        "in_progress": [
+          {
+            "course_code": "COSC 460",
+            "course_name": "COMPUTER GRAPHICS",
+            "credits": 3.0,
+            "grade": "IP",
+            "term": "Fall 2025",
+            "category": "Electives"
+          },
+          {
+            "course_code": "COSC 490",
+            "course_name": "SENIOR PROJECT",
+            "credits": 3.0,
+            "grade": "IP",
+            "term": "Fall 2025",
+            "category": "Electives"
+          },
+          {
+            "course_code": "MATH 120",
+            "course_name": "INTRO TO PROB & DEC MAKING",
+            "credits": 3.0,
+            "grade": "IP",
+            "term": "Fall 2025",
+            "category": "Electives"
+          },
+          {
+            "course_code": "COSC 001",
+            "course_name": "COMPUTER SCIENCE SENIOR COMP",
+            "credits": 0.0,
+            "grade": "IP",
+            "term": "Fall 2025",
+            "category": "Electives"
+          },
+          {
+            "course_code": "COSC 499",
+            "course_name": "SENIOR RSCH OR TCHG/TUTOR ASST",
+            "credits": 3.0,
+            "grade": "IP",
+            "term": "Fall 2025",
+            "category": "Electives"
+          }
+        ],
+        "remaining": []
+      },
+      "Unspecified Term": {
+        "completed": [
+          {
+            "course_code": "HUMA 201",
+            "course_name": "INTRO TO HUMANITIES I (AH)",
+            "credits": 3.0,
+            "grade": "B",
+            "term": null,
+            "category": "General Education"
+          },
+          {
+            "course_code": "RELG 305",
+            "course_name": "INTRO TO WORLD RELIGIONS (AH)",
+            "credits": 3.0,
+            "grade": "A",
+            "term": null,
+            "category": "General Education"
+          }
+        ],
+        "in_progress": [],
+        "remaining": []
+      }
+    },
+    "requirements": {
+      "General Education": {
+        "completed_credits": 42.0,
+        "in_progress_credits": 0.0,
+        "remaining_credits": 0.0,
+        "total_required": 0.0,
+        "courses": {
+          "completed": [
+            {
+              "course_code": "ORNS 106",
+              "course_name": "FRES. ORNS. FOR MAJ SCMNS (OR)",
+              "credits": 1.0,
+              "grade": "B",
+              "term": "Fall 2021",
+              "category": "General Education"
+            },
+            {
+              "course_code": "COSC 111",
+              "course_name": "INTRO TO COMPUTER SCIENCE I",
+              "credits": 4.0,
+              "grade": "B",
+              "term": "Fall 2021",
+              "category": "General Education"
+            },
+            {
+              "course_code": "ENGL 101",
+              "course_name": "FRESHMAN COMPOSITION I (EC)",
+              "credits": 3.0,
+              "grade": "C",
+              "term": "Fall 2021",
+              "category": "General Education"
+            },
+            {
+              "course_code": "ENGL 102",
+              "course_name": "FRESH COMPOSITION II (EC)",
+              "credits": 3.0,
+              "grade": "C",
+              "term": "Fall 2022",
+              "category": "General Education"
+            },
+            {
+              "course_code": "ENGR 110",
+              "course_name": "ENGINEERING FOR US ALL (CT)",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2023",
+              "category": "General Education"
+            },
+            {
+              "course_code": "MATH 312",
+              "course_name": "LINEAR ALGEBRA I",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2023",
+              "category": "General Education"
+            },
+            {
+              "course_code": "HUMA 201",
+              "course_name": "INTRO TO HUMANITIES I (AH)",
+              "credits": 3.0,
+              "grade": "B",
+              "term": null,
+              "category": "General Education"
+            },
+            {
+              "course_code": "RELG 305",
+              "course_name": "INTRO TO WORLD RELIGIONS (AH)",
+              "credits": 3.0,
+              "grade": "A",
+              "term": null,
+              "category": "General Education"
+            },
+            {
+              "course_code": "EASC 205",
+              "course_name": "INTRODUCTORY EARTH SCI (BP)",
+              "credits": 4.0,
+              "grade": "C",
+              "term": "Spring 2024",
+              "category": "General Education"
+            },
+            {
+              "course_code": "EASC 102",
+              "course_name": "METEOROLOGY (BP)",
+              "credits": 3.0,
+              "grade": "B",
+              "term": "Spring 2023",
+              "category": "General Education"
+            },
+            {
+              "course_code": "HIST 101",
+              "course_name": "WORLD HISTORY I (SB)",
+              "credits": 3.0,
+              "grade": "B",
+              "term": "Spring 2024",
+              "category": "General Education"
+            },
+            {
+              "course_code": "MHTC 103",
+              "course_name": "INTRO TO GROUP DYNAMICS (SB)",
+              "credits": 3.0,
+              "grade": "B",
+              "term": "Spring 2022",
+              "category": "General Education"
+            },
+            {
+              "course_code": "NUSC 160",
+              "course_name": "INTRO TO NUTRITION (HH)",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Spring 2025",
+              "category": "General Education"
+            },
+            {
+              "course_code": "HIST 350",
+              "course_name": "INTRO TO THE AFRICAN DIAS (CI)",
+              "credits": 3.0,
+              "grade": "B",
+              "term": "Spring 2023",
+              "category": "General Education"
+            }
+          ],
+          "in_progress": [],
+          "remaining": []
+        }
+      },
+      "Supporting Courses": {
+        "completed_credits": 38.0,
+        "in_progress_credits": 0.0,
+        "remaining_credits": 0.0,
+        "total_required": 0.0,
+        "courses": {
+          "completed": [
+            {
+              "course_code": "MATH 241",
+              "course_name": "CALCULUS I",
+              "credits": 4.0,
+              "grade": "B",
+              "term": "Spring 2023",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "MATH 242",
+              "course_name": "CALCULUS II",
+              "credits": 4.0,
+              "grade": "A",
+              "term": "Summer 2024",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "MATH 331",
+              "course_name": "APPLIED PROB & STAT",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2024",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 201",
+              "course_name": "COMPUTER ETHICS",
+              "credits": 1.0,
+              "grade": "A",
+              "term": "Spring 2025",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 112",
+              "course_name": "INTRO TO COMPUTER SCIENCE II",
+              "credits": 4.0,
+              "grade": "B",
+              "term": "Spring 2022",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 220",
+              "course_name": "DATA STRUC & ALGORITHMS",
+              "credits": 4.0,
+              "grade": "B",
+              "term": "Fall 2022",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 241",
+              "course_name": "COMPUTER SYSTEMS & DIG LOGIC",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2022",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 281",
+              "course_name": "DISCRETE STRUCTURES",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2023",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 349",
+              "course_name": "COMPUTER NETWORKS",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2024",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 354",
+              "course_name": "OPERATING SYSTEMS",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Spring 2025",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 458",
+              "course_name": "SOFTWARE ENGINEERING",
+              "credits": 3.0,
+              "grade": "C",
+              "term": "Fall 2024",
+              "category": "Supporting Courses"
+            },
+            {
+              "course_code": "COSC 459",
+              "course_name": "DATABASE DESIGN",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2024",
+              "category": "Supporting Courses"
+            }
+          ],
+          "in_progress": [],
+          "remaining": []
+        }
+      },
+      "Electives": {
+        "completed_credits": 15.0,
+        "in_progress_credits": 12.0,
+        "remaining_credits": 0.0,
+        "total_required": 0.0,
+        "courses": {
+          "completed": [
+            {
+              "course_code": "COSC 243",
+              "course_name": "COMPUTER ARCHITECTURE",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Spring 2024",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 251",
+              "course_name": "INTRODUCTION TO DATA SCIENCE",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2023",
+              "category": "Electives"
+            },
+            {
+              "course_code": "MATH 313",
+              "course_name": "LINEAR ALGEBRA II",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Spring 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 470",
+              "course_name": "ARTIFICAL INTELLIGENCE",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Fall 2024",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 472",
+              "course_name": "INTRO TO MACHINE LEARNING",
+              "credits": 3.0,
+              "grade": "A",
+              "term": "Spring 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 332",
+              "course_name": "INTRO TO GAME DESIGN & DEV.",
+              "credits": 0.0,
+              "grade": "F",
+              "term": "Spring 2024",
+              "category": "Electives"
+            }
+          ],
+          "in_progress": [
+            {
+              "course_code": "COSC 460",
+              "course_name": "COMPUTER GRAPHICS",
+              "credits": 3.0,
+              "grade": "IP",
+              "term": "Fall 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 490",
+              "course_name": "SENIOR PROJECT",
+              "credits": 3.0,
+              "grade": "IP",
+              "term": "Fall 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "MATH 120",
+              "course_name": "INTRO TO PROB & DEC MAKING",
+              "credits": 3.0,
+              "grade": "IP",
+              "term": "Fall 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 001",
+              "course_name": "COMPUTER SCIENCE SENIOR COMP",
+              "credits": 0.0,
+              "grade": "IP",
+              "term": "Fall 2025",
+              "category": "Electives"
+            },
+            {
+              "course_code": "COSC 499",
+              "course_name": "SENIOR RSCH OR TCHG/TUTOR ASST",
+              "credits": 3.0,
+              "grade": "IP",
+              "term": "Fall 2025",
+              "category": "Electives"
+            }
+          ],
+          "remaining": []
+        }
+      },
+      "Complementary Studies": {
+        "completed_credits": 8.0,
+        "in_progress_credits": 0.0,
+        "remaining_credits": 0.0,
+        "total_required": 0.0,
+        "courses": {
+          "completed": [
+            {
+              "course_code": "MATH 113",
+              "course_name": "INTRO TO MATH ANALYSIS I (MQ)",
+              "credits": 4.0,
+              "grade": "B",
+              "term": "Spring 2022",
+              "category": "Complementary Studies"
+            },
+            {
+              "course_code": "MATH 114",
+              "course_name": "INTRO TO MATH ANALYSIS II",
+              "credits": 4.0,
+              "grade": "A",
+              "term": "Fall 2022",
+              "category": "Complementary Studies"
+            }
+          ],
+          "in_progress": [],
+          "remaining": []
+        }
+      }
+    },
+    "raw_text_preview": "Morgan State University Enyi, Paul Mmesomachukwu - *****663\nMorgan State University\nStudent name Enyi, Paul Mmesomachukwu\nStudent ID *****663\nDegree Bachelor of Science\nAudit date 11/20/2025  6:43 PMDegree progress\n98%\nRequirements100 %\nCreditsOverall GPA\n3.285\n \n \nLevel Undergraduate   Classification 4-Senior   Major Computer Science   Program Computer Science   College Sch of Comp, Math/Natural\nSci   Academic Standing  Good Standing   Graduation Application  Applied for Graduation   Graduation"
+  },
+  "previous_version_id": "b3cce816-f138-49cb-89e1-6f99c284a76b",
+  "diff_from_previous": {
+    "completed_credits_delta": 0.0,
+    "in_progress_credits_delta": 0.0,
+    "gpa_delta": 0.0,
+    "classification_changed": false,
+    "previous_classification": "Senior",
+    "current_classification": "Senior",
+    "newly_completed_courses": [],
+    "new_in_progress_courses": [],
+    "courses_no_longer_in_progress": [],
+    "newly_remaining_courses": [],
+    "remaining_courses_resolved": [],
+    "grade_changes": [],
+    "terms_added": [],
+    "terms_removed": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "thread_id": "90ae71b6-dcfc-43e6-9b16-339eb30e08ed",
+  "user_id": "37c06ad4-a8a1-4bf9-963e-decf12d4d803",
+  "title": "Welcome to Morgan AI",
+  "messages": [
+    {
+      "message_id": "ad91592d-b9fa-4f85-ab4c-a57c46313bf4",
+      "role": "assistant",
+      "content": "Hello user_1123353481! 👋 Welcome to Morgan AI Assistant. I'm here to help you with anything related to Morgan State University's Computer Science program. You can ask me about courses, advising, internships, campus resources, and much more!",
+      "timestamp": "2025-12-02T05:24:21.608038"
+    }
+  ],
+  "message_count": 1,
+  "created_at": "2025-12-02T05:24:21.608081",
+  "updated_at": "2025-12-02T05:24:21.625013",
+  "is_active": true
+}

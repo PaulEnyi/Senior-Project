@@ -1,0 +1,13 @@
+{
+  "user_id": "ba543db3-ce71-49b0-8c3b-8b51e21c13a9",
+  "email": "test_8898@msu.edu",
+  "username": "tester_8011",
+  "full_name": "tester_8011",
+  "password_hash": "$2b$12$gbC8Lze14OpeF6eMYUZba.INrZAIH.IigwY8AOMwmf6PrXViCLsyW",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-01T20:37:54.629533",
+  "updated_at": "2025-12-01T20:37:54.629573",
+  "last_login": null
+}
