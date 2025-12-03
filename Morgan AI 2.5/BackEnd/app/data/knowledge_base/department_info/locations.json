@@ -1,0 +1,225 @@
+{
+  "main_building": {
+    "name": "Science Complex",
+    "address": "1700 E Cold Spring Lane, Baltimore, MD 21251",
+    "floors": 3,
+    "accessibility": "ADA compliant with elevator access to all floors",
+    "parking": "Visitor parking available in Lot C, adjacent to Science Complex"
+  },
+  "department_offices": {
+    "main_office": {
+      "room": "Science Complex 325",
+      "description": "Main Computer Science Department Office",
+      "staff": "Department Chair and Administrative Assistant",
+      "phone": "(443) 885-3130",
+      "services": [
+        "General inquiries",
+        "Enrollment PIN distribution", 
+        "Academic advising appointments",
+        "Form submission and processing",
+        "Department information"
+      ]
+    },
+    "reception": {
+      "room": "Science Complex 325A",
+      "description": "Administrative Reception Area",
+      "staff": "Administrative Assistant",
+      "hours": "Monday-Friday 8:30 AM - 5:00 PM"
+    }
+  },
+  "faculty_offices": {
+    "third_floor": {
+      "floor": 3,
+      "rooms": {
+        "325": {
+          "occupant": "Dr. Debra Pettit",
+          "title": "Department Chair",
+          "office_hours": "Monday-Friday 9:00 AM - 5:00 PM, or by appointment"
+        },
+        "327": {
+          "occupant": "Dr. Mohinder Grewal", 
+          "title": "Professor",
+          "office_hours": "Monday/Wednesday 2:00-4:00 PM, or by appointment"
+        },
+        "329": {
+          "occupant": "Dr. Enyue Lu",
+          "title": "Associate Professor", 
+          "office_hours": "Tuesday/Thursday 1:00-3:00 PM, or by appointment"
+        },
+        "331": {
+          "occupant": "Dr. Shaojie Zhang",
+          "title": "Associate Professor",
+          "office_hours": "Monday/Wednesday/Friday 10:00-11:00 AM, or by appointment"
+        },
+        "333": {
+          "occupant": "Dr. Craig Scott",
+          "title": "Assistant Professor",
+          "office_hours": "Tuesday/Thursday 2:00-4:00 PM, or by appointment"
+        },
+        "335": {
+          "occupant": "Prof. Angela Johnson",
+          "title": "Senior Lecturer",
+          "office_hours": "Monday/Wednesday 3:00-5:00 PM, or by appointment"
+        },
+        "337": {
+          "occupant": "Dr. Michael Thompson",
+          "title": "Assistant Professor",
+          "office_hours": "Tuesday/Thursday 11:00 AM-1:00 PM, or by appointment"
+        }
+      }
+    }
+  },
+  "computer_labs": {
+    "lab_a": {
+      "room": "Science Complex 310",
+      "capacity": 30,
+      "equipment": "Windows/Linux dual boot workstations",
+      "software": [
+        "Microsoft Visual Studio",
+        "Eclipse IDE",
+        "Python IDLE",
+        "MATLAB",
+        "Office Suite",
+        "Various programming languages and compilers"
+      ],
+      "hours": "Monday-Friday 8:00 AM - 10:00 PM, Saturday-Sunday 12:00 PM - 8:00 PM",
+      "access": "Swipe card access for CS students"
+    },
+    "lab_b": {
+      "room": "Science Complex 312", 
+      "capacity": 25,
+      "equipment": "High-performance workstations",
+      "specialization": "Graphics, AI, and Machine Learning",
+      "software": [
+        "Adobe Creative Suite",
+        "Blender",
+        "TensorFlow",
+        "PyTorch",
+        "CUDA toolkit",
+        "OpenGL development tools"
+      ],
+      "hours": "Monday-Friday 8:00 AM - 10:00 PM, Saturday-Sunday 12:00 PM - 8:00 PM",
+      "access": "Advanced courses and research students"
+    },
+    "lab_c": {
+      "room": "Science Complex 314",
+      "capacity": 20,
+      "equipment": "Cybersecurity-focused workstations",
+      "specialization": "Cybersecurity and Networking",
+      "software": [
+        "Wireshark",
+        "Metasploit",
+        "Nmap",
+        "Virtual machines for penetration testing",
+        "Cisco Packet Tracer",
+        "Various security tools"
+      ],
+      "hours": "Monday-Friday 8:00 AM - 10:00 PM, Saturday-Sunday 12:00 PM - 8:00 PM",
+      "access": "Cybersecurity courses and authorized research"
+    }
+  },
+  "student_spaces": {
+    "cs_lounge": {
+      "room": "Science Complex 342",
+      "description": "Computer Science Student Lounge",
+      "amenities": [
+        "Comfortable seating",
+        "Study tables",
+        "Whiteboards for collaboration", 
+        "Vending machines",
+        "Microwave",
+        "Refrigerator"
+      ],
+      "hours": "24/7 access with student ID",
+      "wifi": "Morgan-Student network available"
+    },
+    "study_rooms": {
+      "room_344": {
+        "capacity": 8,
+        "equipment": "Large monitor for presentations, whiteboard",
+        "reservation": "Book through department office",
+        "hours": "8:00 AM - 10:00 PM daily"
+      },
+      "room_346": {
+        "capacity": 6,
+        "equipment": "Whiteboard, power outlets",
+        "reservation": "Book through department office", 
+        "hours": "8:00 AM - 10:00 PM daily"
+      }
+    }
+  },
+  "support_services": {
+    "it_support": {
+      "room": "Science Complex 315",
+      "staff": "Mr. Robert Martinez - IT Support Specialist",
+      "services": [
+        "Computer lab maintenance",
+        "Student account setup and troubleshooting",
+        "Software installation requests",
+        "Hardware support",
+        "Network connectivity issues"
+      ],
+      "hours": "Monday-Friday 9:00 AM - 6:00 PM",
+      "contact": "robert.martinez@morgan.edu or (443) 885-3145"
+    },
+    "tutoring_center": {
+      "room": "Science Complex 340",
+      "description": "Computer Science Tutoring Center", 
+      "services": [
+        "Programming help (all languages)",
+        "Homework assistance",
+        "Exam preparation",
+        "Project guidance",
+        "Peer tutoring sessions"
+      ],
+      "hours": "Monday-Thursday 10:00 AM - 6:00 PM, Friday 10:00 AM - 4:00 PM",
+      "cost": "Free for all CS students",
+      "appointment": "Drop-in or scheduled through department office"
+    }
+  },
+  "nearby_amenities": {
+    "dining": {
+      "student_center": {
+        "distance": "2 minute walk",
+        "options": ["Dining hall", "Food court", "Starbucks"]
+      },
+      "library_cafe": {
+        "distance": "3 minute walk", 
+        "hours": "Monday-Friday 7:00 AM - 9:00 PM"
+      }
+    },
+    "library": {
+      "name": "Earl S. Richardson Library",
+      "distance": "3 minute walk",
+      "study_spaces": "Individual and group study rooms available",
+      "resources": "Computer access, printing, research databases"
+    },
+    "parking": {
+      "student_parking": {
+        "lot": "Lot C",
+        "distance": "Adjacent to Science Complex",
+        "permit_required": "Yes - purchase from Parking Services"
+      },
+      "visitor_parking": {
+        "lot": "Lot C - Visitor Section",
+        "distance": "50 yards from main entrance",
+        "cost": "$3 per hour, $15 daily maximum"
+      }
+    }
+  },
+  "emergency_information": {
+    "building_evacuation": {
+      "primary_exit": "Main entrance - Science Complex first floor",
+      "secondary_exits": [
+        "East stairwell to parking lot",
+        "West stairwell to courtyard"
+      ],
+      "assembly_point": "Parking Lot C"
+    },
+    "emergency_contacts": {
+      "campus_police": "(443) 885-3333",
+      "medical_emergency": "911 or (443) 885-3333",
+      "building_maintenance": "(443) 885-3200"
+    }
+  }
+}

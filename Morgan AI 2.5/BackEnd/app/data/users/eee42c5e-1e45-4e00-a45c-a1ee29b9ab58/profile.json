@@ -1,0 +1,12 @@
+{
+  "user_id": "eee42c5e-1e45-4e00-a45c-a1ee29b9ab58",
+  "student_id": null,
+  "major": null,
+  "concentration": null,
+  "classification": null,
+  "expected_graduation": null,
+  "gpa": null,
+  "has_degree_works": false,
+  "created_at": "2025-12-01T20:14:16.084636",
+  "updated_at": "2025-12-01T20:14:16.084662"
+}

@@ -1,0 +1,13 @@
+{
+  "user_id": "eee42c5e-1e45-4e00-a45c-a1ee29b9ab58",
+  "email": "t421730216@t.com",
+  "username": "u585844430",
+  "full_name": "u585844430",
+  "password_hash": "$2b$12$JMrcF5Fypyds/H3pGj84MOBKwNaeDPLlUuFlpiEBRaG2u9Uus6s1y",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-01T20:14:16.074306",
+  "updated_at": "2025-12-01T20:14:16.074343",
+  "last_login": null
+}

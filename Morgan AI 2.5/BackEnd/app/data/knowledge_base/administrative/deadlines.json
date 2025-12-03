@@ -1,0 +1,148 @@
+{
+  "academic_year": "2024-2025",
+  "fall_2024": {
+    "registration": {
+      "early_registration_begins": "2024-03-25",
+      "early_registration_ends": "2024-05-01", 
+      "summer_registration_begins": "2024-05-15",
+      "orientation_registration": "2024-08-15 to 2024-08-20",
+      "late_registration_period": "2024-08-26 to 2024-08-30"
+    },
+    "semester_dates": {
+      "classes_begin": "2024-08-26",
+      "labor_day_holiday": "2024-09-02",
+      "add_drop_deadline": "2024-09-06",
+      "withdrawal_deadline": "2024-10-25",
+      "thanksgiving_break": "2024-11-25 to 2024-11-29",
+      "classes_end": "2024-12-06",
+      "final_exams": "2024-12-09 to 2024-12-13",
+      "commencement": "2024-12-21"
+    },
+    "important_cs_deadlines": {
+      "advisor_assignment": "2024-08-15",
+      "course_override_deadline": "2024-09-13",
+      "internship_application_deadline": "2024-10-15",
+      "graduation_application_deadline": "2024-09-30"
+    }
+  },
+  "spring_2025": {
+    "registration": {
+      "early_registration_begins": "2024-10-15",
+      "early_registration_ends": "2024-12-01",
+      "winter_registration": "2024-12-10 to 2024-12-20",
+      "orientation_registration": "2025-01-10 to 2025-01-15", 
+      "late_registration_period": "2025-01-21 to 2025-01-24"
+    },
+    "semester_dates": {
+      "classes_begin": "2025-01-21",
+      "martin_luther_king_day": "2025-01-20",
+      "add_drop_deadline": "2025-01-31",
+      "spring_break": "2025-03-10 to 2025-03-14",
+      "withdrawal_deadline": "2025-04-04",
+      "classes_end": "2025-05-02",
+      "final_exams": "2025-05-05 to 2025-05-09",
+      "commencement": "2025-05-17"
+    },
+    "important_cs_deadlines": {
+      "advisor_meetings": "2025-01-15 to 2025-01-30",
+      "senior_project_proposal": "2025-02-15",
+      "course_override_deadline": "2025-02-07",
+      "summer_internship_deadline": "2025-03-01",
+      "graduation_application_deadline": "2025-02-01"
+    }
+  },
+  "summer_2025": {
+    "session_1": {
+      "registration_deadline": "2025-05-20",
+      "classes_begin": "2025-05-27",
+      "add_drop_deadline": "2025-05-30",
+      "withdrawal_deadline": "2025-06-20",
+      "classes_end": "2025-06-27",
+      "final_exams": "2025-06-30 to 2025-07-01"
+    },
+    "session_2": {
+      "registration_deadline": "2025-06-30",
+      "classes_begin": "2025-07-07",
+      "add_drop_deadline": "2025-07-10",
+      "withdrawal_deadline": "2025-07-28",
+      "classes_end": "2025-08-08",
+      "final_exams": "2025-08-11 to 2025-08-12"
+    }
+  },
+  "financial_deadlines": {
+    "tuition_payment_fall": "2024-08-15",
+    "tuition_payment_spring": "2025-01-15",
+    "financial_aid_priority_deadline": "2025-03-01",
+    "scholarship_applications": "2025-02-15",
+    "refund_deadlines": {
+      "100_percent_refund": "First week of classes",
+      "75_percent_refund": "Second week of classes", 
+      "50_percent_refund": "Third week of classes",
+      "25_percent_refund": "Fourth week of classes",
+      "no_refund": "After fourth week"
+    }
+  },
+  "cs_specific_deadlines": {
+    "capstone_project_deadlines": {
+      "topic_selection": "Third week of fall semester",
+      "proposal_submission": "End of fall semester",
+      "progress_report": "Mid-spring semester",
+      "final_presentation": "Last week of spring classes",
+      "final_report": "During finals week"
+    },
+    "internship_deadlines": {
+      "summer_applications": "March 1",
+      "fall_applications": "July 15", 
+      "spring_applications": "November 1",
+      "google_step_program": "December 1",
+      "microsoft_explore": "January 15"
+    },
+    "organization_deadlines": {
+      "wics_membership": "September 15",
+      "gdsc_applications": "September 30",
+      "sacs_elections": "October 15",
+      "tutoring_applications": "August 30"
+    }
+  },
+  "graduation_requirements_deadlines": {
+    "degree_audit_request": "At least two semesters before graduation",
+    "graduation_application": "First month of final semester",
+    "thesis_submission": "Two weeks before finals (if applicable)",
+    "final_transcripts": "After degree completion",
+    "diploma_ordering": "During final semester"
+  },
+  "recurring_deadlines": {
+    "advising_appointments": {
+      "fall_registration": "March 1 - April 15",
+      "spring_registration": "October 1 - November 15",
+      "summer_registration": "February 1 - May 1"
+    },
+    "course_evaluations": "Last two weeks of each semester",
+    "grade_appeals": "30 days after grade posting",
+    "academic_probation_appeals": "Within semester of probation notice"
+  },
+  "emergency_deadlines": {
+    "medical_withdrawal": "Any time with proper documentation",
+    "military_deployment": "Immediate notification required",
+    "family_emergency": "Contact dean's office immediately"
+  },
+  "reminder_system": {
+    "email_notifications": "Sent 2 weeks and 1 week before major deadlines",
+    "websis_alerts": "Posted 30 days before critical dates",
+    "advisor_reminders": "Discussed during advising appointments",
+    "department_announcements": "Posted on website and bulletin boards"
+  },
+  "contact_for_deadline_questions": {
+    "academic_calendar": "Registrar's Office - (443) 885-3130",
+    "cs_specific_deadlines": "CS Department - (443) 885-3130",
+    "financial_deadlines": "Student Accounts - (443) 885-3101",
+    "graduation_deadlines": "Records Office - (443) 885-3130"
+  },
+  "notes": [
+    "All dates subject to change - check official academic calendar",
+    "Some deadlines may be extended due to university holidays",
+    "International students may have additional deadline requirements",
+    "Graduate students may have different deadline schedules",
+    "Always confirm dates with your academic advisor"
+  ]
+}
