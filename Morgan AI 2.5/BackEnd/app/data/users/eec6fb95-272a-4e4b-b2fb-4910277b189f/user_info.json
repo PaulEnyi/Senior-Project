@@ -1,0 +1,13 @@
+{
+  "user_id": "eec6fb95-272a-4e4b-b2fb-4910277b189f",
+  "email": "test@test.com",
+  "username": "testuser",
+  "full_name": "Test User",
+  "password_hash": "$2b$12$YwSqiLFYCFs/2/uo61VFU.f.VEq9jj8inO20aaot8CV.6OA7PtaGa",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-02T07:39:05.498208",
+  "updated_at": "2025-12-02T07:39:05.498262",
+  "last_login": null
+}

@@ -1,0 +1,13 @@
+{
+  "user_id": "2b4904a5-d4b1-4593-8a5c-bfaf31edc075",
+  "email": "chattest1996878445@test.com",
+  "username": "user2058956817",
+  "full_name": "user2058956817",
+  "password_hash": "$2b$12$SR.NRnDuz.9IcAjGx8dio.B2EYxo6gCX26mJkQ62dFmeEDXWKAGfe",
+  "role": "student",
+  "student_id": null,
+  "status": "active",
+  "created_at": "2025-12-01T20:10:53.555406",
+  "updated_at": "2025-12-01T20:10:53.555443",
+  "last_login": null
+}
